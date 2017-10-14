@@ -1,0 +1,329 @@
+body { margin: 0; padding: 0; min-width: 1200px; }
+
+@font-face { font-family: 'iconfont'; src: url("fonts/iconfont.eot"); src: url("fonts/iconfont.eot?#iefix") format("embedded-opentype"), url("fonts/iconfont.woff") format("woff"), url("fonts/iconfont.ttf") format("truetype"), url("fonts/iconfont.svg#iconfont") format("svg"); }
+.header { height: 100px; width: 100%; background-color: #fff; }
+.header .home { width: 420px; height: 100%; float: left; background-color: #01406c; }
+.header .home div { display: inline-block; *display: inline; }
+.header .home .logo { margin-left: 34px; margin-right: 20px; height: 100px; line-height: 100px; }
+.header .home .logo img { vertical-align: middle; }
+.header .company { vertical-align: middle; line-height: 25px; color: #ffffff; font-family: "Microsoft Yahei"; }
+.header .company p { margin: 0; font-size: 20px; }
+.header .company span { font-size: 14px; letter-spacing: 1px; }
+.header .nav { float: left; margin-left: 240px; background-color: #fff; height: 100px; }
+.header .nav ul { margin: 0; padding: 0; height: 100%; font-size: 0; }
+.header .nav ul li { display: inline-block; *display: inline; text-align: center; position: relative; height: 100px; list-style: none; }
+.header .nav ul li a { text-decoration: none; color: #666666; font-size: 16px; font-family: "Microsoft Yahei"; display: block; line-height: 100px; padding: 0 45px; }
+.header .nav ul li:hover { background-color: #01406c; }
+.header .nav ul li:hover a { color: #ffffff; }
+.header .nav ul li:hover .Submenu { display: block; }
+.header .nav .Submenu { position: absolute; left: 0; top: 101px; background-color: #b2b2b2; opacity: 0.8; display: none; z-index: 99; }
+.header .nav .Submenu ul { margin: 0; padding: 0; }
+.header .nav .Submenu ul li { display: inline-block; *display: inline; height: 49px; line-height: 49px; text-align: center; width: 100%; list-style: none; }
+.header .nav .Submenu ul li a { text-decoration: none; color: #ffffff; font-size: 16px; font-family: "Microsoft Yahei"; display: block; text-align: center; width: auto; padding: 0; line-height: 49px; margin: 0 10px; border-bottom: 1px solid #e3e2de; }
+.header .nav .Submenu ul li:last-of-type a { border-bottom: none; }
+@media screen and (max-width: 1879px) { .header .nav { margin-left: 20px; } }
+@media screen and (max-width: 1600px) { .header .nav ul li a { padding: 0 25px; } }
+@media screen and (max-width: 1260px) { .header .nav ul li a { padding: 0 20px; } }
+
+.footer { height: 600px; width: 100%; overflow: hidden; background-color: #f1f1f1; clear: both; }
+.footer .copyright { height: 80px; background-color: #01406c; text-align: center; line-height: 80px; font-size: 12px; color: #999999; font-family: "Microsoft Yahei"; }
+.footer .copyright a { text-decoration: none; font-size: 12px; color: #999999; }
+.footer .copyright a:hover { text-decoration: underline; }
+.footer .tail { height: 520px; width: 945px; margin: 0 auto; }
+.footer .tail .foot-contactus { padding: 90px 0 50px 0; overflow: hidden; border-bottom: 2px solid #fcfcfc; }
+.footer .tail .foot-contactus .search { float: left; width: 376px; height: 57px; background-color: #ffffff; font-size: 0; }
+.footer .tail .foot-contactus .search input { width: 248px; height: 57px; background-color: none; outline: none; border: none; text-indent: 10px; font-size: 14px; }
+.footer .tail .foot-contactus .search button { width: 120px; height: 40px; color: #fff; font-size: 18px; font-family: "Microsoft Yahei"; margin-right: 8px; background-color: #01406c; border: none; outline: none; }
+.footer .tail .foot-contactus .contact { float: right; }
+.footer .tail .foot-contactus .contact div { display: inline-block; *display: inline; color: #01406c; font-family: "Microsoft Yahei"; }
+.footer .tail .foot-contactus .contact p { font-size: 14px; margin: 0; }
+.footer .tail .foot-contactus .contact span { font-size: 24px; line-height: 40px; }
+.footer .tail .foot-contactus .share img { margin-left: 30px; cursor: pointer; }
+.footer .tail .foot-contactus .tel { margin-top: -10px; border-bottom: 2px solid #01406c; }
+.footer .tail .foot-contactus .tel div { display: inline-block; *display: inline; }
+.footer .tail .foot-contactus .tel img { vertical-align: top; }
+.footer .tail .footmenu { width: auto; height: auto; margin-top: 70px; overflow: hidden; }
+.footer .tail .footmenu ul { margin: 0; padding: 0; margin-right: 84px; float: left; }
+.footer .tail .footmenu ul h3 { margin: 0; color: #01406c; font-family: "Microsoft Yahei"; font-size: 18px; margin-bottom: 50px; font-weight: normal; }
+.footer .tail .footmenu ul li { display: block; list-style: none; clear: both; line-height: 30px; text-align: center; }
+.footer .tail .footmenu ul li a { display: block; text-decoration: none; color: #666666; font-size: 13px; font-family: "Microsoft Yahei"; }
+.footer .tail .footmenu ul li:hover a { color: black; font-weight: 600; }
+
+.banner { height: 600px; width: auto; position: relative; overflow: hidden; }
+.banner img { width: auto; height: 100%; }
+.banner .currentLocation { position: absolute; bottom: 0; left: 0; width: 100%; height: 65px; }
+.banner .currentLocation .bgc { position: absolute; bottom: 0; left: 0; width: 100%; height: 65px; background-color: #b2b2b2; opacity: 0.6; }
+.banner .currentLocation .content { position: absolute; bottom: 0; left: 0; width: 100%; height: 65px; }
+.banner .currentLocation .content div { width: 1200px; margin: 0 auto; text-align: right; line-height: 65px; }
+.banner .currentLocation img { vertical-align: middle; margin-right: 20px; }
+.banner .currentLocation span, .banner .currentLocation a { font-size: 16px; font-family: "Microsoft Yahei"; color: #ffffff; }
+.banner .currentLocation a { text-decoration: none; }
+
+.navigation { height: 100px; background: #fff; width: 100%; overflow: hidden; border-bottom: 2px solid #f7f7f7; }
+.navigation .menu { width: 1200px; height: 100px; margin: 0 auto; }
+.navigation .menu ul { margin: 0; }
+.navigation .menu ul li { list-style: none; display: inline-block; *display: inline; height: 97px; text-align: center; line-height: 97px; margin-right: 10px; }
+.navigation .menu ul li a { display: block; padding: 0 55px; font-size: 16px; font-family: "Microsoft Yahei"; color: #0b5f92; text-decoration: none; cursor: pointer; }
+.navigation .menu ul li a:hover { border-bottom: 3px solid #0b5f92; }
+
+.welc { width: 100%; height: auto; background-color: #fff; overflow: hidden; }
+.welc .carousel { height: 800px; width: 100%; position: relative; overflow: hidden; }
+.welc .carousel .silder { width: 100%; height: 800px; overflow: hidden; }
+.welc .carousel .silder img { height: 800px; width: auto; position: absolute; left: 0; top: 0; -webkit-transition: all 0.5s linear; -moz-transition: all 0.5s linear; -o-transition: all 0.5s linear; transition: all 0.5s linear; }
+.welc .carousel .switch { width: 100px; height: 50px; position: absolute; right: 0; bottom: 0; background-color: #ffffff; }
+.welc .carousel .switch div { background: #fff; color: #01406c; }
+.welc .carousel .switch div span { font-family: 'iconfont'; font-size: 20px; color: #01406c; }
+.welc .carousel .switch div:hover { background-color: #01406c; }
+.welc .carousel .switch div:hover span { color: #fff; }
+.welc .carousel .switch .prev { width: 50px; height: 50px; float: left; text-align: center; line-height: 50px; cursor: pointer; background-color: #fff; }
+.welc .carousel .switch .next { width: 50px; height: 50px; float: left; text-align: center; line-height: 50px; cursor: pointer; background-color: #fff; }
+.welc .carousel .switch img { vertical-align: middle; }
+.welc .carousel .bannertxt { position: absolute; left: 360px; top: 235px; width: auto; height: auto; margin: -200px 0 0 100px; opacity: 0; -webkit-transition: all 1.5s linear; -moz-transition: all 1.5s linear; -o-transition: all 1.5s linear; transition: all 1.5s linear; }
+.welc .carousel .bannertxt h1 { font-family: "Microsoft Yahei"; font-size: 69px; color: #ffffff; font-weight: bold; margin-bottom: 60px; }
+.welc .carousel .bannertxt p { font-size: 32px; color: #fff; }
+.welc .carousel .bannertxt button { margin-top: 50px; width: 220px; height: 60px; border: none; background: #01406c; outline: none; color: #fff; font-size: 24px; text-align: center; line-height: 60px; font-family: "Microsoft Yahei"; }
+.welc .content-title { height: 160px; width: 100%; background-color: #fff; text-align: center; color: #999999; }
+.welc .content-title .category { line-height: 30px; }
+.welc .content-title h1 { font-weight: normal; font-size: 48px; margin: 0; line-height: 40px; margin-top: 100px; margin-bottom: 30px; font-family: 'Microsoft YaHei Light'; }
+.welc .content-title p { font-size: 24px; font-family: "Microsoft Yahei"; display: inline-block; *display: inline; }
+.welc .content-title span { width: 50px; height: 1px; display: inline-block; *display: inline; border-top: 1px solid #999999; margin: -10px 10px 0; vertical-align: middle; }
+.welc .Product { height: 738px; width: 1200px; margin: 0 auto; overflow: hidden; }
+.welc .Product .protop { width: 100%; height: 298px; position: relative; opacity: 0; margin-left: -1200px; -webkit-transition: all 1.5s linear; -moz-transition: all 1.5s linear; -o-transition: all 1.5s linear; transition: all 1.5s linear; }
+.welc .Product .protop img { width: 100%; height: auto; }
+.welc .Product .protop div .bgc, .welc .Product .protop div .txt { right: 0; }
+.welc .Product .protop div .bgc p, .welc .Product .protop div .bgc h6, .welc .Product .protop div .bgc button, .welc .Product .protop div .txt p, .welc .Product .protop div .txt h6, .welc .Product .protop div .txt button { margin-left: 66px; }
+.welc .Product .probtn { width: 100%; height: 300px; position: relative; opacity: 0; margin-left: 1200px; -webkit-transition: all 1.5s linear; -moz-transition: all 1.5s linear; -o-transition: all 1.5s linear; transition: all 1.5s linear; }
+.welc .Product .probtn img { width: 100%; height: auto; }
+.welc .Product .probtn div .bgc, .welc .Product .probtn div .txt { left: 0; }
+.welc .Product div .bgc { position: absolute; top: 0; width: 300px; height: 100%; background-color: #fff; opacity: 0.8; }
+.welc .Product div .bgc:hover + .txt h6 { color: #01406c; }
+.welc .Product div .bgc:hover + .txt p { color: #01406c; }
+.welc .Product div .bgc:hover + .txt button { width: 150px; height: 40px; border: none; background: #01406c; outline: none; color: #fff; font-size: 16px; text-align: center; line-height: 40px; font-family: "Microsoft Yahei"; }
+.welc .Product div .txt { position: absolute; top: 0; width: 300px; height: auto; margin-top: 50px; margin-left: 66px; }
+.welc .Product div .txt h6, .welc .Product div .txt p { font-size: 18px; font-family: "Microsoft Yahei"; color: #666666; margin: 0; line-height: 30px; -webkit-transition: all 0.8s linear; -moz-transition: all 0.8s linear; -o-transition: all 0.8s linear; transition: all 0.8s linear; }
+.welc .Product div .txt button { width: 150px; height: 40px; border: 1px solid #a2b8c8; background: none; outline: 1px solid #01406c; color: #01406c; font-size: 16px; text-align: center; line-height: 40px; font-family: "Microsoft Yahei"; margin-top: 40px; -webkit-transition: all 0.8s linear; -moz-transition: all 0.8s linear; -o-transition: all 0.8s linear; transition: all 0.8s linear; }
+.welc .Product div .txt button:hover { width: 150px; height: 40px; border: none; background: #01406c; outline: none; color: #fff; font-size: 16px; text-align: center; line-height: 40px; font-family: "Microsoft Yahei"; }
+.welc .Product div .txt:hover h6 { color: #01406c; }
+.welc .Product div .txt:hover p { color: #01406c; }
+.welc .Product div .txt:hover button { width: 150px; height: 40px; border: none; background: #01406c; outline: none; color: #fff; font-size: 16px; text-align: center; line-height: 40px; font-family: "Microsoft Yahei"; }
+.welc .Product .more { height: 140px; width: 100%; text-align: center; padding-top: 99px; }
+.welc .Product .more button { width: 150px; height: 40px; border: none; background: #01406c; outline: none; color: #fff; font-size: 16px; text-align: center; line-height: 40px; font-family: "Microsoft Yahei"; -webkit-transition: all 0.8s linear; -moz-transition: all 0.8s linear; -o-transition: all 0.8s linear; transition: all 0.8s linear; }
+.welc .Product .more button:hover { width: 150px; height: 40px; border: 1px solid #a2b8c8; background: none; outline: 1px solid #01406c; color: #01406c; font-size: 16px; text-align: center; line-height: 40px; font-family: "Microsoft Yahei"; }
+.welc .survey { width: 100%; height: 600px; overflow: hidden; }
+.welc .survey .surveyImg { height: 600px; width: 1200px; float: left; }
+.welc .survey .surveyImg img { height: 100%; width: auto; margin-left: -300px; margin-top: 300px; -webkit-transition: all 1.2s linear; -moz-transition: all 1.2s linear; -o-transition: all 1.2s linear; transition: all 1.2s linear; }
+.welc .survey .surveyTxt { float: left; width: 696px; height: 100%; background-color: #fff; -webkit-transition: all 1.2s linear; -moz-transition: all 1.2s linear; -o-transition: all 1.2s linear; transition: all 1.2s linear; }
+.welc .survey .surveyTxt div { width: 385px; margin-left: 400px; -webkit-transition: all 1.2s linear; -moz-transition: all 1.2s linear; -o-transition: all 1.2s linear; transition: all 1.2s linear; }
+.welc .survey .surveyTxt h4, .welc .survey .surveyTxt p, .welc .survey .surveyTxt span { margin: 0; font-family: "Microsoft Yahei"; }
+.welc .survey .surveyTxt h4 { font-size: 18px; color: #666666; font-family: "Microsoft Yahei"; line-height: 30px; -webkit-transition: all 0.8s linear; -moz-transition: all 0.8s linear; -o-transition: all 0.8s linear; transition: all 0.8s linear; }
+.welc .survey .surveyTxt span { font-size: 12px; color: #666666; -webkit-transition: all 0.8s linear; -moz-transition: all 0.8s linear; -o-transition: all 0.8s linear; transition: all 0.8s linear; }
+.welc .survey .surveyTxt P { font-size: 14px; color: #666666; margin: 30px 0 50px 0; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 5; overflow: hidden; }
+.welc .survey .surveyTxt button { width: 150px; height: 40px; border: 1px solid #01406c; background: #01406c; outline: none; color: #ffffff; font-size: 16px; text-align: center; line-height: 40px; font-family: "Microsoft Yahei"; font-family: "Microsoft Yahei"; -webkit-transition: all 0.8s linear; -moz-transition: all 0.8s linear; -o-transition: all 0.8s linear; transition: all 0.8s linear; }
+.welc .survey .surveyTxt:hover h4 { color: #01406c; }
+.welc .survey .surveyTxt:hover span { color: #01406c; }
+.welc .survey .surveyTxt button:hover { width: 150px; height: 40px; border: 1px solid #a2b8c8; background: none; outline: 1px solid #01406c; color: #01406c; font-size: 16px; text-align: center; line-height: 40px; font-family: "Microsoft Yahei"; }
+@media screen and (max-width: 1900px) { .welc .survey .surveyTxt { width: 39.5%; }
+  .welc .survey .surveyImg { width: 60%; } }
+@media screen and (max-width: 1600px) { .welc .survey .surveyImg { height: 500px; width: auto; }
+  .welc .survey .surveyTxt { height: 500px; width: auto; } }
+@media screen and (max-width: 1500px) { .welc .survey .surveyImg { width: 60%; }
+  .welc .survey .surveyTxt { width: 39.5%; }
+  .welc .survey .surveyTxt div { margin: 100px 0 0 50px; } }
+.welc .news { width: 1200px; height: 640px; margin: 0 auto; }
+.welc .news .newstop img, .welc .news .newsbtm img { width: 100%; height: auto; }
+.welc .news .newstop .item, .welc .news .newsbtm .item { width: 400px; height: 270px; float: left; position: relative; background-color: #fafafa; text-align: center; }
+.welc .news .newstop .item h4, .welc .news .newstop .item p, .welc .news .newsbtm .item h4, .welc .news .newsbtm .item p { margin: 0; font-family: "Microsoft Yahei"; }
+.welc .news .newstop .item h4, .welc .news .newsbtm .item h4 { margin-top: 58px; margin-bottom: 30px; font-size: 18px; color: #666666; -webkit-transition: all 0.5s linear; -moz-transition: all 0.5s linear; -o-transition: all 0.5s linear; transition: all 0.5s linear; }
+.welc .news .newstop .item p, .welc .news .newsbtm .item p { font-size: 14px; color: #666666; margin: 0 auto; width: 288px; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 3; overflow: hidden; }
+.welc .news .newstop .item:hover h4, .welc .news .newsbtm .item:hover h4 { color: #01406c; }
+.welc .news .newstop .item:hover button, .welc .news .newsbtm .item:hover button { width: 150px; height: 40px; border: none; background: #01406c; outline: none; color: #fff; font-size: 16px; text-align: center; line-height: 40px; font-family: "Microsoft Yahei"; }
+.welc .news .newstop button, .welc .news .newsbtm button { width: 150px; height: 40px; border: 1px solid #a2b8c8; background: none; outline: 1px solid #01406c; color: #01406c; font-size: 16px; text-align: center; line-height: 40px; font-family: "Microsoft Yahei"; margin-top: 30px; -webkit-transition: all 0.8s linear; -moz-transition: all 0.8s linear; -o-transition: all 0.8s linear; transition: all 0.8s linear; }
+.welc .news .newstop button:hover, .welc .news .newsbtm button:hover { width: 150px; height: 40px; border: none; background: #01406c; outline: none; color: #fff; font-size: 16px; text-align: center; line-height: 40px; font-family: "Microsoft Yahei"; }
+.welc .news .Arrow { width: 0; height: 0; border-style: solid; border-width: 15px; left: 48%; position: absolute; z-index: 99; }
+.welc .news .Arrowtotop { top: -30px; border-color: transparent transparent #fff transparent; }
+.welc .news .Arrowtobtm { bottom: -30px; border-color: #fff transparent transparent transparent; }
+
+.intro .navigation .menu li:nth-child(1) a { border-bottom: 3px solid #0b5f92; }
+.intro .introduce { height: 700px; width: 100%; clear: both; background-color: #fff; overflow: hidden; text-align: right; position: relative; }
+.intro .introduce .introduceImg { width: 1100px; height: 500px; margin-top: 100px; float: right; z-index: 9; }
+.intro .introduce .introduceImg img { width: 100%; height: auto; }
+.intro .introduce .CompanyProfile { width: 795px; height: 455px; text-align: left; position: absolute; background-color: #fafafa; z-index: 99; margin: 20px 0 0 135px; opacity: 0; -webkit-transition: all 1s linear; -moz-transition: all 1s linear; -o-transition: all 1s linear; transition: all 1s linear; }
+.intro .introduce .CompanyProfile .profile { margin: 50px 50px 0 50px; }
+.intro .introduce .CompanyProfile .profile h4, .intro .introduce .CompanyProfile .profile p, .intro .introduce .CompanyProfile .profile span { font-family: "Microsoft Yahei"; margin: 0; }
+.intro .introduce .CompanyProfile .profile h4 { font-size: 24px; color: #01406c; }
+.intro .introduce .CompanyProfile .profile span { color: #01406c; font-size: 14px; line-height: 40px; }
+.intro .introduce .CompanyProfile .profile p { font-size: 14px; color: #666666; margin-top: 28px; line-height: 25px; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 4; overflow: hidden; display: none; opacity: 0; -webkit-transition: all 1s linear; -moz-transition: all 1s linear; -o-transition: all 1s linear; transition: all 1s linear; }
+
+.culture { height: auto; width: 100%; background-color: #fff; padding: 80px 0 100px 0; clear: both; }
+.culture .cultureList { width: 1200px; height: auto; margin: 0 auto; overflow: hidden; }
+.culture .cultureList .item { height: 300px; width: 100%; margin-top: 20px; overflow: hidden; padding-top: 60px; opacity: 0; -webkit-transition: all 1.2s linear; -moz-transition: all 1.2s linear; -o-transition: all 1.2s linear; transition: all 1.2s linear; }
+.culture .cultureList .item .num { position: relative; height: 300px; width: 300px; }
+.culture .cultureList .item .num img { width: 100%; height: auto; }
+.culture .cultureList .item .num h1 { font-size: 220px; text-align: center; line-height: 300px; opacity: 0.05; }
+.culture .cultureList .item .txt { position: absolute; left: 60px; top: 108px; }
+.culture .cultureList .item .txt h3, .culture .cultureList .item .txt p { margin: 0; font-family: "Microsoft Yahei"; }
+.culture .cultureList .item .txt h3 { color: #01406c; font-size: 24px; font-weight: normal; }
+.culture .cultureList .item .txt p { color: #666666; font-size: 16px; width: 180px; line-height: 26px; margin-top: 10px; }
+.culture .cultureList div:nth-child(2n) img { float: right; height: 100%; width: auto; }
+.culture .cultureList div:nth-child(2n-1) img { float: left; height: 100%; width: auto; }
+.culture .cultureList div:nth-child(2n-1) div { float: right; width: 238px; height: 192px; }
+.culture .cultureList div:nth-child(2n) div { float: left; width: 238px; height: 100%; height: 192px; }
+
+.aptitude { width: 100%; height: auto; background-color: #fff; overflow: hidden; clear: both; }
+.aptitude .navigation .menu li:nth-child(2) a { border-bottom: 3px solid #0b5f92; }
+.aptitude .apt-content { padding: 100px 0px; width: 1200px; height: 450px; margin: 0 auto; text-align: center; }
+.aptitude .apt-content .item { width: 390px; height: 450px; margin-right: 8px; float: left; background-color: #fafafa; }
+.aptitude .apt-content .item img { height: auto; width: auto; margin: 6px 0; }
+.aptitude .apt-content .item .licence { margin: 61px 0; }
+.aptitude .apt-content .item .permit { margin-top: 4px; }
+.aptitude .apt-content .item span { color: #666666; font-size: 16px; font-family: "Microsoft Yahei"; }
+.aptitude .apt-content .item div { height: 60px; line-height: 60px; }
+
+.workcase { width: 100%; height: auto; background-color: #fff; overflow: hidden; padding: 100px 0; clear: both; }
+.workcase .case { width: 1200px; height: auto; margin: 0 auto; overflow: hidden; }
+.workcase .case .line { width: 390px; height: 360px; background-color: #fafafa; float: left; margin-bottom: 20px; overflow: hidden; }
+.workcase .case .line div:nth-child(1) { width: 390px; height: 300px; overflow: hidden; }
+.workcase .case .line div:nth-child(1) img { -webkit-transition: all 0.8s linear; -moz-transition: all 0.8s linear; -o-transition: all 0.8s linear; transition: all 0.8s linear; }
+.workcase .case .line div:nth-child(1):hover img { transform: scale(1.3, 1.3); position: absolute; z-index: 999; }
+.workcase .case .line div:nth-child(2) { width: 390px; height: 60px; line-height: 60px; text-align: center; }
+.workcase .case .line div:nth-child(2) span { color: #666666; font-size: 16px; font-family: "Microsoft Yahei"; }
+.workcase .case > div { margin-bottom: 20px; width: 390px; height: 360px; background-color: #fafafa; float: left; overflow: hidden; }
+.workcase .case > div:nth-child(3n-1) { margin-right: 15px; }
+.workcase .case > div:nth-child(3n-2) { margin-right: 15px; }
+.workcase .more { text-align: center; margin-top: 80px; clear: both; }
+.workcase .more button { width: 220px; height: 60px; border: none; background: #01406c; outline: none; color: #fff; font-size: 24px; text-align: center; line-height: 60px; font-family: "Microsoft Yahei"; }
+
+.technology { width: 100%; height: auto; background-color: #fff; overflow: hidden; clear: both; }
+.technology .tec-content { padding: 100px 0; width: 1200px; height: auto; margin: 0 auto; }
+.technology .tec-content .itemList { overflow: hidden; width: 100%; height: 180px; margin-bottom: 20px; overflow: hidden; padding-top: 60px; opacity: 0; -webkit-transition: all 1.2s linear; -moz-transition: all 1.2s linear; -o-transition: all 1.2s linear; transition: all 1.2s linear; }
+.technology .tec-content .itemList .itemList-lt { float: left; width: 250px; height: 180px; }
+.technology .tec-content .itemList .itemList-lt img { width: 100%; height: auto; }
+.technology .tec-content .itemList .itemList-rt { float: left; width: 898px; height: 158px; background-color: #fff; padding: 22px 0 0px 50px; -webkit-transition: all 0.6s linear; -moz-transition: all 0.6s linear; -o-transition: all 0.6s linear; transition: all 0.6s linear; }
+.technology .tec-content .itemList .itemList-rt h6, .technology .tec-content .itemList .itemList-rt h5, .technology .tec-content .itemList .itemList-rt p, .technology .tec-content .itemList .itemList-rt q, .technology .tec-content .itemList .itemList-rt span, .technology .tec-content .itemList .itemList-rt a { margin: 0; font-family: "Microsoft Yahei"; }
+.technology .tec-content .itemList .itemList-rt h5 { color: #01406c; font-size: 16px; }
+.technology .tec-content .itemList .itemList-rt p, .technology .tec-content .itemList .itemList-rt h6, .technology .tec-content .itemList .itemList-rt a { color: #939393; }
+.technology .tec-content .itemList .itemList-rt p { font-size: 14px; margin: 30px 0; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; overflow: hidden; }
+.technology .tec-content .itemList .itemList-rt h6 { font-size: 14px; }
+.technology .tec-content .itemList .itemList-rt a { text-decoration: none; margin-right: 30px; }
+.technology .tec-content .itemList .itemList-rt .download { color: #db0601; font-family: "iconfont"; font-size: 16px; }
+.technology .tec-content .itemList .itemList-rt:hover { background-color: #0b5f92; }
+.technology .tec-content .itemList .itemList-rt:hover h6, .technology .tec-content .itemList .itemList-rt:hover h5, .technology .tec-content .itemList .itemList-rt:hover p, .technology .tec-content .itemList .itemList-rt:hover q, .technology .tec-content .itemList .itemList-rt:hover span, .technology .tec-content .itemList .itemList-rt:hover a { color: #ffffff; }
+.technology .tec-content .more { text-align: center; clear: both; margin-top: 80px; }
+.technology .tec-content .more button { width: 220px; height: 60px; border: none; background: #01406c; outline: none; color: #fff; font-size: 24px; text-align: center; line-height: 60px; font-family: "Microsoft Yahei"; }
+
+.lease { width: 100%; height: auto; background-color: #fff; }
+.lease .lea-content { width: 1200px; height: 500px; background-color: #fff; padding: 100px 0; margin: 0 auto; overflow: hidden; position: relative; }
+.lease .lea-content .serveimg { width: 1050px; height: 100%; }
+.lease .lea-content .serveimg img { height: 100%; width: auto; }
+.lease .lea-content .serve { width: 540px; position: absolute; right: -300px; top: 383px; height: 140px; background-color: #fafafa; padding: 30px; z-index: 9; opacity: 0.8; -webkit-transition: all 1.2s linear; -moz-transition: all 1.2s linear; -o-transition: all 1.2s linear; transition: all 1.2s linear; }
+.lease .lea-content .serve h3, .lease .lea-content .serve p, .lease .lea-content .serve span { margin: 0; font-family: "Microsoft Yahei"; }
+.lease .lea-content .serve h3, .lease .lea-content .serve span { color: #0b5f92; }
+.lease .lea-content .serve h3 { font-size: 24px; font-weight: 600; margin-bottom: 12px; }
+.lease .lea-content .serve span { font-size: 14px; letter-spacing: 5px; }
+.lease .lea-content .serve p { color: #666666; font-size: 14px; line-height: 22px; margin-top: 28px; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 3; overflow: hidden; }
+
+.contactUs { width: 100%; height: auto; background-color: #fff; overflow: hidden; }
+.contactUs .feedback { width: 1200px; height: auto; margin: 0 auto; padding: 100px 0; display: none; }
+.contactUs .feedback .addr-box { font-size: 0; }
+.contactUs .feedback .addr-box input { width: 490px; height: 40px; border: none; background-color: #f1f1f1; outline: none; text-indent: 8px; width: 40%; margin-bottom: 20px; font-size: 16px; }
+.contactUs .feedback .addr-box label { display: inline-block; *display: inline; height: 40px; width: 6%; line-height: 40px; color: #666666; font-size: 16px; font-family: "Microsoft Yahei"; }
+.contactUs .feedback .addr-box textarea { width: 90%; height: 250px; background-color: #f1f1f1; border: none; outline: none; text-indent: 8px; margin-bottom: 70px; font-size: 16px; }
+.contactUs .feedback .addr-box button { width: 220px; height: 60px; border: none; background: none; outline: none; color: #fff; font-size: 24px; text-align: center; line-height: 60px; font-family: "Microsoft Yahei"; }
+.contactUs .feedback .addr-box .submit { background-color: #01406c; margin: 0 30px 0 60px; }
+.contactUs .feedback .addr-box .reset { background-color: #999999; }
+.contactUs .feedback .addr-box span { display: inline-block; *display: inline; height: 40px; width: 4%; text-align: center; line-height: 40px; color: #01406c; font-size: 16px; }
+.contactUs .address { width: 100%; height: 450px; margin: 0 auto; padding: 100px 0; overflow: hidden; }
+.contactUs .address .feedback-wrap { height: 450px; }
+.contactUs .address .feedback-wrap .map { width: 1150px; height: 100%; float: left; }
+.contactUs .address .feedback-wrap .information { height: 365px; float: left; width: 648px; padding: 85px 0 0 100px; background-color: #fafafa; }
+.contactUs .address .feedback-wrap .information h2, .contactUs .address .feedback-wrap .information p, .contactUs .address .feedback-wrap .information q, .contactUs .address .feedback-wrap .information span { margin: 0; font-family: "Microsoft Yahei"; }
+.contactUs .address .feedback-wrap .information h2 { color: #01406c; font-size: 24px; font-weight: normal; margin-bottom: 10px; }
+.contactUs .address .feedback-wrap .information b { color: #01406c; font-size: 14px; letter-spacing: 3px; font-weight: 600; }
+.contactUs .address .feedback-wrap .information P { color: #666666; font-size: 14px; margin-bottom: 20px; }
+.contactUs .address .feedback-wrap .information .contacts-p span { display: block; }
+.contactUs .address .feedback-wrap .information .addr { margin-top: 30px; }
+@media screen and (max-width: 1910px) { .contactUs .address .feedback-wrap .map { width: 60%; }
+  .contactUs .address .feedback-wrap .information { width: 34%; } }
+@media screen and (max-width: 1750px) { .contactUs .address .feedback-wrap .information { width: 33%; } }
+@media screen and (max-width: 1500px) { .contactUs .address .feedback-wrap .information { width: 31%; } }
+@media screen and (max-width: 1200px) { .contactUs .address .feedback-wrap .information { padding: 85px 0 0 50px; } }
+.contactUs .navigation .menu .addrs a { border-bottom: 3px solid #0b5f92; }
+
+.product { width: 100%; height: auto; background-color: #fff; }
+.product .listone li:nth-child(1) a { border-bottom: 3px solid #0b5f92; }
+.product .attachment li:nth-child(3) a { border-bottom: 3px solid #0b5f92; }
+.product .zhanqiao li:nth-child(4) a { border-bottom: 3px solid #0b5f92; }
+.product .platform li:nth-child(5) a { border-bottom: 3px solid #0b5f92; }
+.product .steelbridge li:nth-child(2) a { border-bottom: 3px solid #0b5f92; }
+.product .pro-items { width: 1200px; height: auto; padding: 100px 0; margin: 0 auto; }
+.product .pro-items .modeltop { height: 260px; width: 100%; overflow: hidden; }
+.product .pro-items .modeltop div { float: left; }
+.product .pro-items .modeltop .detail { height: 100%; width: 367px; background-color: #01406c; padding-left: 33px; }
+.product .pro-items .modeltop .detail h3, .product .pro-items .modeltop .detail p { margin: 0; font-family: "Microsoft Yahei"; color: #ffffff; }
+.product .pro-items .modeltop .detail h3 { font-size: 24px; font-weight: normal; margin-top: 95px; margin-bottom: 10px; }
+.product .pro-items .modeltop .detail p { font-size: 13px; letter-spacing: 3px; line-height: 22px; }
+.product .pro-items .modeltop .describe { background-color: #fafafa; height: 210px; width: 700px; padding: 50px 45px 0 50px; }
+.product .pro-items .modeltop .describe p { color: #666666; font-size: 14px; line-height: 22px; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 3; overflow: hidden; opacity: 0; margin-top: 10px; -webkit-transition: all 1.2s linear; -moz-transition: all 1.2s linear; -o-transition: all 1.2s linear; transition: all 1.2s linear; }
+.product .pro-items .modeltop .describe p:nth-child(1) { margin-bottom: 35px; }
+.product .pro-items .modelbtm { width: 100%; height: 550px; overflow: hidden; }
+.product .pro-items .modelbtm div { float: left; margin-top: 80px; }
+.product .pro-items .modelbtm img { width: 100%; height: auto; }
+.product .pro-items .modelbtm .modelbtm-one { width: 400px; height: 550px; margin-right: 90px; margin-top: 0px; }
+.product .pro-items .modelbtm .modelbtm-two { margin-top: 80px; margin-right: 30px; }
+.product .itemtype-two, .product .itemtype-three, .product .itemtype-four, .product .itemtype-five { display: none; }
+
+.newsBulletin { width: 100%; height: auto; background-color: #fff; overflow: hidden; }
+.newsBulletin .newsNav .menu li:nth-child(1) a { border-bottom: 3px solid #0b5f92; }
+.newsBulletin .noticeNav .menu li:nth-child(2) a { border-bottom: 3px solid #0b5f92; }
+.newsBulletin .newsfocus, .newsBulletin .notice { overflow: hidden; width: 1200px; height: auto; padding: 100px 0; margin: 0 auto; }
+.newsBulletin .newsfocus .news-content, .newsBulletin .notice .news-content { width: 100%; height: auto; overflow: hidden; }
+.newsBulletin .newsfocus .news-content .item, .newsBulletin .notice .news-content .item { float: left; width: 390px; height: 410px; overflow: hidden; margin-bottom: 50px; background-color: #fafafa; }
+.newsBulletin .newsfocus .news-content .item:hover, .newsBulletin .notice .news-content .item:hover { background-color: #0b5f92; }
+.newsBulletin .newsfocus .news-content > div:nth-child(3n-2), .newsBulletin .notice .news-content > div:nth-child(3n-2) { margin-right: 15px; }
+.newsBulletin .newsfocus .news-content > div:nth-child(3n-1), .newsBulletin .notice .news-content > div:nth-child(3n-1) { margin-right: 15px; }
+.newsBulletin .newsfocus .news-content .item:hover .itemtop, .newsBulletin .notice .news-content .item:hover .itemtop { border-bottom: 1px solid #fff; }
+.newsBulletin .newsfocus .news-content .itemtop, .newsBulletin .notice .news-content .itemtop { height: 350px; width: auto; cursor: pointer; overflow: hidden; position: relative; border-bottom: 1px solid #f1f1f1; }
+.newsBulletin .newsfocus .news-content .itemtop img, .newsBulletin .notice .news-content .itemtop img { width: 100%; height: auto; }
+.newsBulletin .newsfocus .news-content .itemtop h3, .newsBulletin .newsfocus .news-content .itemtop p, .newsBulletin .notice .news-content .itemtop h3, .newsBulletin .notice .news-content .itemtop p { margin: 0; font-family: "Microsoft Yahei"; color: #666666; }
+.newsBulletin .newsfocus .news-content .itemtop span, .newsBulletin .notice .news-content .itemtop span { font-size: 12px; color: #666666; font-family: "Microsoft YaHei Light"; }
+.newsBulletin .newsfocus .news-content .itemtop h3, .newsBulletin .notice .news-content .itemtop h3 { font-size: 18px; margin: 18px 0 30px 0; }
+.newsBulletin .newsfocus .news-content .itemtop p, .newsBulletin .notice .news-content .itemtop p { font-size: 14px; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 5; overflow: hidden; line-height: 22px; display: none; }
+.newsBulletin .newsfocus .news-content .itemtop div, .newsBulletin .notice .news-content .itemtop div { height: 100px; padding: 30px 30px 0 30px; background-color: #fafafa; -webkit-transition: all 0.6s linear; -moz-transition: all 0.6s linear; -o-transition: all 0.6s linear; transition: all 0.6s linear; }
+.newsBulletin .newsfocus .news-content .item:hover .itemtop div, .newsBulletin .notice .news-content .item:hover .itemtop div { position: absolute; width: 330px; height: 320px; bottom: 0; left: 0; z-index: 99; background-color: #0b5f92; -webkit-animation: animition1 .6s linear; -o-animation: animition1 .6s linear; animation: animition1 .6s linear; }
+@keyframes animition1 { 0% { height: 100px; opacity: 0.5; }
+  100% { height: 320px; opacity: 1; } }
+.newsBulletin .newsfocus .news-content .item:hover .itemtop p, .newsBulletin .notice .news-content .item:hover .itemtop p { display: block; color: #fff; }
+.newsBulletin .newsfocus .news-content .item:hover .itemtop span, .newsBulletin .notice .news-content .item:hover .itemtop span { color: #ffffff; }
+.newsBulletin .newsfocus .news-content .item:hover .itemtop h3, .newsBulletin .notice .news-content .item:hover .itemtop h3 { color: #ffffff; }
+.newsBulletin .newsfocus .news-content .item:hover .itembtm a, .newsBulletin .notice .news-content .item:hover .itembtm a { color: #ffffff; }
+.newsBulletin .newsfocus .news-content .itembtm, .newsBulletin .notice .news-content .itembtm { height: 59px; width: auto; padding-left: 10px; line-height: 59px; }
+.newsBulletin .newsfocus .news-content .itembtm a, .newsBulletin .notice .news-content .itembtm a { margin-left: 20px; text-decoration: none; color: #cccccc; font-family: 'iconfont'; font-size: 22px; }
+.newsBulletin .newsfocus .readMore, .newsBulletin .notice .readMore { width: 100%; height: auto; margin: 50px 0 0 0; text-align: center; }
+.newsBulletin .newsfocus .readMore button, .newsBulletin .notice .readMore button { width: 220px; height: 60px; border: none; background: #01406c; outline: none; color: #fff; font-size: 24px; text-align: center; line-height: 60px; font-family: "Microsoft Yahei"; }
+
+.group { height: auto; width: 100%; background-color: #fff; overflow: hidden; }
+.group .navigation .menu li:nth-child(4) a { border-bottom: 3px solid #0b5f92; }
+.group .organization { margin: 0 auto; width: 1200px; height: auto; padding: 100px 0; }
+.group .organization img { width: 100%; height: auto; }
+
+.newsinfo, .noticeinfo { width: 100%; height: auto; background-color: #fff; }
+.newsinfo .newsNav .menu li:nth-child(1) a, .noticeinfo .newsNav .menu li:nth-child(1) a { border-bottom: 3px solid #0b5f92; }
+.newsinfo .noticeNav .menu li:nth-child(2) a, .noticeinfo .noticeNav .menu li:nth-child(2) a { border-bottom: 3px solid #0b5f92; }
+.newsinfo .info-content, .noticeinfo .info-content { width: 1200px; height: auto; margin: 0 auto; padding: 100px 0; font-family: "Microsoft Yahei"; }
+.newsinfo .info-content h3, .newsinfo .info-content p, .noticeinfo .info-content h3, .noticeinfo .info-content p { margin: 0; }
+.newsinfo .info-content .details-head, .noticeinfo .info-content .details-head { text-align: center; }
+.newsinfo .info-content .details-head h3, .noticeinfo .info-content .details-head h3 { color: #01406c; font-size: 24px; font-weight: normal; }
+.newsinfo .info-content .details-head p, .noticeinfo .info-content .details-head p { color: #666666; font-size: 12px; margin-top: 20px; }
+.newsinfo .info-content .details-head p span:nth-child(1), .noticeinfo .info-content .details-head p span:nth-child(1) { margin-right: 20px; }
+.newsinfo .info-content .details, .noticeinfo .info-content .details { border-bottom: 2px solid #f1f1f1; padding: 50px 0; }
+.newsinfo .info-content .details img, .noticeinfo .info-content .details img { width: 100%; height: auto; margin: 30px 0; }
+.newsinfo .info-content .details p, .noticeinfo .info-content .details p { text-indent: 30px; color: #666666; font-size: 14px; }
+.newsinfo .info-content .Details-tail, .noticeinfo .info-content .Details-tail { margin-top: 20px; }
+.newsinfo .info-content .Details-tail .tail-left, .noticeinfo .info-content .Details-tail .tail-left { float: left; }
+.newsinfo .info-content .Details-tail .tail-left p, .noticeinfo .info-content .Details-tail .tail-left p { color: #666666; font-size: 14px; }
+.newsinfo .info-content .Details-tail .tail-left a, .noticeinfo .info-content .Details-tail .tail-left a { text-decoration: none; color: #666666; font-size: 14px; }
+.newsinfo .info-content .Details-tail .tail-rt, .noticeinfo .info-content .Details-tail .tail-rt { float: right; }
+.newsinfo .info-content .Details-tail .tail-rt button, .noticeinfo .info-content .Details-tail .tail-rt button { width: 160px; height: 40px; border: none; background: #01406c; outline: none; color: #fff; font-size: 14px; text-align: center; line-height: 40px; font-family: "Microsoft Yahei"; }
+.newsinfo .info-content .Details-tail .tail-rt a, .noticeinfo .info-content .Details-tail .tail-rt a { color: #fff; font-family: "Microsoft Yahei"; display: block; width: 160px; height: 40px; text-decoration: none; }
+
+/*# sourceMappingURL=style.css.map */
