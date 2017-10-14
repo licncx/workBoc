@@ -1,0 +1,84 @@
+@charset "utf-8";
+/*样式参考*/
+.paging a {
+    text-decoration: none;
+}
+.paging #page {
+    height: 35px;
+    display: table;
+    margin: 0 auto;
+}
+.paging .page {
+    text-align: center;
+}
+.paging .fl {
+    float: left;
+}
+.paging .fr {
+    float: right;
+}
+.paging .pagingUl {
+    float: right;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    height: 30px;
+}
+.paging .pagingUl li {
+    float: left;
+    width: 30px;
+    height: 30px;
+    background: #fff;
+    text-align: center;
+    margin-right: 10px;
+    border-radius: 5px
+}
+.paging .pagingUl li a {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #cccccc;
+    text-align: center;
+    line-height: 28px;
+    color: #666;
+    font-size: 12px;
+    border-radius: 5px
+}
+.paging .prv,
+.paging .next {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+    background: #fff;
+    padding: 0 4px;
+    border-radius: 5px;
+    border: 1px solid #cccccc;
+}
+.paging .prv {
+    margin-right: 10px;
+}
+.paging .first,
+.last {
+    width: 30px;
+    height: 30px;
+    font-size: 12px;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+    background: #fff;
+    padding: 0 5px;
+    border-radius: 5px;
+    margin-right: 10px;
+    border: 1px solid #cccccc;
+}
+.paging .prv:hover,
+.paging .next:hover,
+.paging .first:hover,
+.paging .last:hover,
+.paging .pagingUl li a:hover,
+.paging .activP {
+    border: 1px solid #d50303 !important;
+    color: #d50303!important;
+}

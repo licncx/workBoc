@@ -1,0 +1,139 @@
+body { margin: 0px; padding: 0px; }
+
+ul, ol, p, h1, h2, h3, h4, h5, h6 { margin: 0px; padding: 0px; }
+
+@font-face { font-family: 'iconfont'; src: url("fonts/iconfont.eot"); src: url("fonts/iconfont.eot?#iefix") format("embedded-opentype"), url("fonts/iconfont.woff") format("woff"), url("fonts/iconfont.ttf") format("truetype"), url("fonts/iconfont.svg#iconfont") format("svg"); }
+.header { height: 0.98rem; width: auto; padding: 0 0.16rem; text-align: center; position: relative; }
+.header .wrap { float: left; height: 0.98rem; line-height: 0.98rem; }
+.header .wrap img { width: 0.36rem; vertical-align: middle; }
+.header .wrap .menu { width: 5rem; background: #182858; position: absolute; left: -5.1rem; top: 0; z-index: 9999; }
+.header .wrap .menu .close { height: 0.88rem; line-height: 0.88rem; padding: 0 0.46rem; text-align: right; margin-bottom: 1.05rem; }
+.header .wrap .menu .close img { vertical-align: middle; width: 0.36rem; }
+.header .wrap .menu .nav { width: 100%; height: 100%; text-align: left; }
+.header .wrap .menu .nav ul { width: 100%; height: auto; float: none; }
+.header .wrap .menu .nav ul li { float: none; list-style: none; width: 100%; height: auto; }
+.header .wrap .menu .nav ul li a { display: block; width: auto; height: 0.79rem; line-height: 0.79rem; padding: 0 0.46rem; border-bottom: 1px solid #8c94ac; }
+.header .wrap .menu .nav ul li a span { float: left; color: #fff; font-size: 0.24rem; font-family: "Microsoft Yahei"; }
+.header .wrap .menu .nav ul li a b { font-weight: normal; float: right; font-family: 'iconfont'; color: #fff; font-size: 0.24rem; }
+.header .wrap .menu .nav ul ol { float: none; width: 100%; height: auto; padding: 0.2rem 0; border-bottom: 1px solid #8c94ac; display: none; }
+.header .wrap .menu .nav ul ol li { list-style: none; float: none; width: 100%; }
+.header .wrap .menu .nav ul ol li a { height: 0.5rem; line-height: 0.5rem; display: block; width: auto; padding: 0 0.46rem; border: none; color: #fff; font-size: 0.22rem; font-family: "Microsoft Yahei"; }
+.header .wrap .menu .nav ul ol li a i { font-family: 'iconfont'; margin: 0 0.16rem 0 0.28rem; font-size: 0.12rem; }
+.header .logo { height: 0.98rem; line-height: 0.98rem; }
+.header .logo img { width: 1.56rem; vertical-align: middle; }
+
+.footer { background: #2f2f2f; text-align: center; padding: 0.3rem 0 0.1rem 0; overflow: hidden; }
+.footer p { color: #d1d1d1; font-size: 0.16rem; font-family: "Microsoft Yahei"; line-height: 0.4rem; }
+.footer p a { color: #d1d1d1; }
+.footer p span { color: #fff; margin: 0 0.24rem; }
+.footer p:nth-of-type(1) { margin-bottom: 0.2rem; }
+
+.welcome { width: 100%; height: auto; background: #fff; overflow: hidden; }
+.welcome .banner { width: 100%; height: auto; overflow: hidden; }
+.welcome .banner img { width: 100%; }
+.welcome .wel-box1 { width: auto; height: 1.5rem; padding: 0.6rem 0.16rem; overflow: hidden; }
+.welcome .wel-box1 .items { float: left; text-align: center; width: 20%; }
+.welcome .wel-box1 .items img { width: 0.9rem; }
+.welcome .wel-box1 .items h6 { color: #333333; font-size: 0.22rem; font-family: "Microsoft Yahei"; font-weight: normal; margin-top: 0.13rem; }
+.welcome .wel-news { width: 100%; max-height: 8.39rem; overflow: hidden; background: #f9f9f9; }
+.welcome .wel-news .items-top { width: 100%; height: 0.87rem; margin-top: 0.4rem; background: #fff; }
+.welcome .wel-news .items-top div { float: left; width: 2.4rem; height: 0.83rem; margin-right: 0.15rem; text-align: center; border-top: 0.04rem solid #b5b5b5; position: relative; }
+.welcome .wel-news .items-top div h3 { color: #3f3f3f; font-size: 0.3rem; font-family: "Microsoft Yahei"; line-height: 0.83rem; }
+.welcome .wel-news .items-top div b { position: absolute; top: -0.05rem; left: 0; width: 100%; height: 0.08rem; background: none; border-radius: 10px; }
+.welcome .wel-news .items-top div:nth-of-type(1) b { background: #eb7a00; }
+.welcome .wel-news .items-top div:nth-of-type(3) { margin-right: 0px; }
+.welcome .wel-news .items-box { width: auto; max-height: 7.12rem; padding: 0 0.16rem; background: #fff; overflow: hidden; display: none; }
+.welcome .wel-news .items-box div { width: 100%; height: 1.9rem; overflow: hidden; }
+.welcome .wel-news .items-box div img { width: 100%; }
+.welcome .wel-news .items-box ol { float: none; width: 100%; }
+.welcome .wel-news .items-box ol li { float: none; width: 100%; height: 0.85rem; line-height: 0.85rem; border-bottom: 2px solid #e5e5e5; list-style-position: inside; list-style-type: square; color: #eb7a00; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.welcome .wel-news .items-box ol li a { text-decoration: none; color: #333333; font-size: 0.3rem; font-family: "Microsoft Yahei"; }
+.welcome .wel-news .items-box ol li:nth-last-of-type(1) { border: none; }
+.welcome .wel-news .NewsBox { display: block; }
+
+.intro { width: 100%; height: auto; background: #fff; overflow: hidden; }
+.intro .location { height: 0.84rem; width: auto; background: #333333; line-height: 0.84rem; padding: 0 0.34rem; }
+.intro .location span, .intro .location a { color: #fff; font-size: 0.26rem; font-family: "Microsoft Yahei"; text-decoration: none; }
+.intro .content { width: auto; height: auto; padding: 0 0.16rem; overflow: hidden; }
+.intro .content h3 { color: #333333; font-size: 0.42rem; font-family: "Microsoft Yahei"; font-weight: bold; text-align: center; margin: 0.5rem 0; }
+.intro .content .intro-box { border-top: 2px dashed #cccccc; padding: 0.7rem 0; width: 100%; }
+.intro .content .intro-box p { color: #333333; font-size: 0.28rem; font-family: "Microsoft Yahei"; line-height: 0.5rem; text-indent: 0.6rem; }
+.intro .content .intro-box img { max-width: 100%; }
+
+.contactUs { width: 100%; height: auto; background: #fff; overflow: hidden; }
+.contactUs .location { height: 0.84rem; width: auto; background: #333333; line-height: 0.84rem; padding: 0 0.34rem; }
+.contactUs .location span, .contactUs .location a { color: #fff; font-size: 0.26rem; font-family: "Microsoft Yahei"; text-decoration: none; }
+.contactUs .content { width: auto; padding: 0.55rem 0.55rem 0.9rem; text-align: center; }
+.contactUs .content h3 { color: #333333; font-size: 0.42rem; font-family: "Microsoft Yahei"; font-weight: bold; margin-bottom: 0.37rem; }
+.contactUs .content span { color: #333333; font-size: 0.18rem; font-family: "Microsoft Yahei"; display: block; margin-bottom: 0.75rem; }
+.contactUs .content input { width: 100%; height: 0.77rem; outline: none; border: none; margin-top: 0.4rem; border-bottom: 2px solid #b5b5b5; color: #666666; font-size: 0.4rem; text-indent: 5px; }
+.contactUs .content button { width: 100%; height: 0.8rem; background: #eb7a00; color: #fff; font-size: 0.4rem; font-family: "Microsoft Yahei"; text-align: center; line-height: 0.8rem; border: none; outline: none; border-radius: 5px; margin-top: 0.48rem; }
+
+.contact-way { width: 100%; height: auto; background: #fff; overflow: hidden; }
+.contact-way .location { height: 0.84rem; width: auto; background: #333333; line-height: 0.84rem; padding: 0 0.34rem; }
+.contact-way .location span, .contact-way .location a { color: #fff; font-size: 0.26rem; font-family: "Microsoft Yahei"; text-decoration: none; }
+.contact-way .content { width: auto; padding: 0.55rem 0.16rem 0.9rem; }
+.contact-way .content h3 { color: #333333; font-size: 0.42rem; font-family: "Microsoft Yahei"; font-weight: bold; margin-bottom: 0.37rem; text-align: center; }
+.contact-way .content ul { width: 100%; height: auto; float: none; padding-left: 0.5rem; }
+.contact-way .content ul li { list-style: none; float: none; line-height: 0.5rem; color: #333333; font-size: 0.28rem; font-family: "Microsoft Yahei"; }
+
+.news { width: 100%; height: auto; background: #fff; }
+.news .location { height: 0.84rem; width: auto; background: #333333; line-height: 0.84rem; padding: 0 0.34rem; }
+.news .location span, .news .location a { color: #fff; font-size: 0.26rem; font-family: "Microsoft Yahei"; text-decoration: none; }
+.news .content { width: auto; padding: 0 0.16rem; }
+.news .content .items { width: 100%; height: 3.6rem; border-bottom: 2px dashed #cccccc; overflow: hidden; }
+.news .content .items h3 { color: #333333; font-size: 0.34rem; font-family: "Microsoft Yahei"; line-height: 0.4rem; font-weight: bold; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; margin: 0.45rem 0 0.3rem 0; }
+.news .content .items b { color: #999999; font-size: 0.24rem; font-family: "Microsoft Yahei"; display: block; margin-bottom: 0.3rem; font-weight: normal; }
+.news .content .items p { color: #444444; font-size: 0.28rem; font-family: "Microsoft Yahei"; line-height: 0.5rem; }
+.news .content .items p a { color: #ac0000; font-family: "Microsoft Yahei"; font-size: 0.24rem; text-decoration: none; }
+.news .paging { height: 0.8rem; width: 100%; }
+.news .paging ul { float: none; width: 100%; height: auto; margin: 0 auto; text-align: center; }
+.news .paging ul li { display: inline-block; float: none; list-style: none; line-height: 0.8rem; color: #333333; font-size: 0.24rem; font-family: "Microsoft Yahei"; margin: 0 0.13rem; }
+.news .paging ul li a { text-decoration: none; color: #333333; }
+
+.faculty { width: 100%; height: auto; background: #fff; overflow: hidden; }
+.faculty .location { height: 0.84rem; width: auto; background: #333333; line-height: 0.84rem; padding-left: 0.16rem; }
+.faculty .location span, .faculty .location a { color: #fff; font-size: 0.26rem; font-family: "Microsoft Yahei"; text-decoration: none; }
+.faculty .location input { width: 2.12rem; height: 0.4rem; border: none; border-radius: 0.05rem; background: #fff; margin: 0 0.1rem; text-indent: 5px; font-size: 0.2rem; }
+.faculty .location button { font-size: 0; width: 0.25rem; height: 0.25rem; border: none; outline: none; background: url("../img/select.png"); background-size: 0.25rem; vertical-align: middle; }
+.faculty .content { width: auto; padding: 0 0.16rem; overflow: hidden; }
+.faculty .content .items { height: 3.08rem; width: 100%; border-bottom: 0.02rem dashed #cccccc; padding-top: 0.42rem; }
+.faculty .content .items .portrait { float: left; width: 2rem; height: 2.5rem; overflow: hidden; margin: 0 0.4rem; }
+.faculty .content .items .portrait img { max-width: 2rem; max-height: 2.5rem; width: 100%; }
+.faculty .content .items .txt { float: left; width: 4.38rem; }
+.faculty .content .items .txt h6 { color: #333333; font-size: 0.36rem; font-family: "Microsoft Yahei"; font-weight: bold; margin: 0.1rem 0 0.4rem 0; }
+.faculty .content .items .txt p { color: #333333; font-size: 0.26rem; font-family: "Microsoft Yahei"; line-height: 0.4rem; }
+.faculty .paging { height: 0.8rem; width: 100%; }
+.faculty .paging ul { float: none; width: 100%; height: auto; margin: 0 auto; text-align: center; }
+.faculty .paging ul li { display: inline-block; float: none; list-style: none; line-height: 0.8rem; color: #333333; font-size: 0.24rem; font-family: "Microsoft Yahei"; margin: 0 0.13rem; }
+.faculty .paging ul li a { text-decoration: none; color: #333333; }
+
+.facultyinfo { width: 100%; height: auto; background: #fff; overflow: hidden; }
+.facultyinfo .location { height: 0.84rem; width: auto; background: #333333; line-height: 0.84rem; padding-left: 0.16rem; }
+.facultyinfo .location span, .facultyinfo .location a { color: #fff; font-size: 0.26rem; font-family: "Microsoft Yahei"; text-decoration: none; }
+.facultyinfo .location input { width: 2.12rem; height: 0.4rem; border: none; border-radius: 0.05rem; background: #fff; margin: 0 0.1rem; text-indent: 5px; font-size: 0.2rem; }
+.facultyinfo .location button { font-size: 0; width: 0.25rem; height: 0.25rem; border: none; outline: none; background: url("../img/select.png"); background-size: 0.25rem; vertical-align: middle; }
+.facultyinfo .content { width: auto; padding: 0.6rem 0.16rem; overflow: hidden; }
+.facultyinfo .content .items { width: 100%; height: auto; }
+.facultyinfo .content .items h6 { color: #333333; font-size: 0.36rem; font-family: "Microsoft Yahei"; font-weight: bold; line-height: 0.4rem; text-align: center; margin-bottom: 0.3rem; }
+.facultyinfo .content .items .portrait { float: left; width: 2rem; height: 2.5rem; overflow: hidden; margin: 0 0.4rem; }
+.facultyinfo .content .items .portrait img { max-width: 2rem; max-height: 2.5rem; width: 100%; }
+.facultyinfo .content .items .txt { float: left; width: 4.38rem; }
+.facultyinfo .content .items .txt h6 { color: #333333; font-size: 0.36rem; font-family: "Microsoft Yahei"; font-weight: bold; margin: 0.1rem 0 0.4rem 0; }
+.facultyinfo .content .items .txt p { color: #333333; font-size: 0.26rem; font-family: "Microsoft Yahei"; line-height: 0.4rem; }
+
+.newsinfo { width: 100%; height: auto; background: #fff; }
+.newsinfo .location { height: 0.84rem; width: auto; background: #333333; line-height: 0.84rem; padding: 0 0.34rem; }
+.newsinfo .location span, .newsinfo .location a { color: #fff; font-size: 0.26rem; font-family: "Microsoft Yahei"; text-decoration: none; }
+.newsinfo .content { width: auto; padding: 0 0.16rem; }
+.newsinfo .content h3 { color: #333333; font-size: 0.4rem; line-height: 0.8rem; margin: 0.4rem 0 0.2rem 0.1rem; }
+.newsinfo .content h6 { color: #999999; font-size: 0.22rem; font-family: "Microsoft Yahei"; font-weight: normal; margin-bottom: 0.4rem; }
+.newsinfo .content h6 span { display: inline-block; margin: 0 0.15rem; }
+.newsinfo .content .itmes { width: 100%; height: auto; border-top: 1px dashed #cccccc; border-bottom: 1px dashed #cccccc; padding: 0.8rem 0; }
+.newsinfo .content .itmes p { color: #333333; font-size: 0.28rem; font-family: "Microsoft Yahei"; text-indent: 0.7rem; line-height: 0.5rem; }
+.newsinfo .content .itmes img { max-width: 100%; }
+.newsinfo .content .paging { width: auto; height: 1.1rem; padding: 0.4rem 0 0.4rem 0.1rem; }
+.newsinfo .content .paging p { color: #333333; font-size: 0.26rem; font-family: "Microsoft Yahei"; line-height: 0.45rem; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.newsinfo .content .paging p a { color: #333333; text-decoration: none; }
+
+/*# sourceMappingURL=style.css.map */
