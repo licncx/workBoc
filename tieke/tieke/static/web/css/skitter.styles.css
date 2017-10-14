@@ -1,0 +1,105 @@
+@charset "utf-8";
+*{margin:0;padding:0;}
+.box_skitter {
+	width: 1200px !important;
+	height: 280px !important;
+    overflow: hidden;
+    background: #fff;
+}
+.box_skitter img {
+	max-width: 1200px;
+}
+.box_skitter .image img {
+	display: none;
+}
+.box_skitter .box_clone {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100px;
+	overflow: hidden;
+	display: none;
+	z-index: 20;
+}
+.box_skitter .box_clone img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 20;
+}
+.box_skitter .prev_button {
+	position: absolute;
+	top: 50%;
+	left: 35px;
+	z-index: 152;
+	width: 42px;
+	height: 42px;
+	overflow: hidden;
+	text-indent: -9999em;
+	margin-top: -25px;
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	transition: all 0.2s;
+    opacity: 0.4 !important;
+}
+.box_skitter .next_button {
+	position: absolute;
+	top: 50%;
+	right: 35px;
+	z-index: 152;
+	width: 42px;
+	height: 42px;
+	overflow: hidden;
+	text-indent: -9999em;
+	margin-top: -25px;
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	transition: all 0.2s;
+    opacity: 0.4 !important;
+}
+.box_skitter .prev_button:hover, .box_skitter .next_button:hover {
+	opacity: 1 !important;
+}
+.box_skitter .info_slide {
+	position: absolute;
+	bottom: 15px;
+	left: 50% !important;
+	z-index: 100;
+}
+.box_skitter .info_slide .image_number {
+    width: 10px;
+    height: 10px;
+    background: #fff;
+    display: inline-block;
+    border-radius: 50%;
+	cursor: pointer;
+    font-size: 0px;
+	-moz-transition: all 0.2s;
+	transition: all 0.2s;
+}
+.box_skitter .info_slide .image_number_select{
+    background: #d50303;
+}
+.box_skitter_large {
+	width: 1200px;
+	height: 280px;
+}
+.box_skitter .focus_button,
+.box_skitter .next_button,
+.box_skitter .prev_button,
+.box_skitter .play_pause_button
+{
+	display: block;
+	background: url("http://www.17sucai.com/preview/1/2013-07-11/skitter/images/sprite-default.png") no-repeat;
+}
+.box_skitter .next_button {
+	background-position: -0px -42px;
+	width: 42px;
+	height: 42px;
+}
+.box_skitter .prev_button {
+	background-position: -42px -42px;
+	width: 42px;
+	height: 42px;
+}
+

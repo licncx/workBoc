@@ -1,0 +1,305 @@
+body { margin: 0; padding: 0; min-width: 1200px; }
+
+ul, ol, p, h1, h2, h3, h4, h5, h6 { margin: 0; padding: 0; }
+
+@font-face { font-family: 'iconfont'; src: url("fonts/iconfont.eot"); src: url("fonts/iconfont.eot?#iefix") format("embedded-opentype"), url("fonts/iconfont.woff") format("woff"), url("fonts/iconfont.ttf") format("truetype"), url("fonts/iconfont.svg#iconfont") format("svg"); }
+.header { height: auto; width: 100%; background: #fff; }
+.header .nav { height: 50px; width: 100%; background: #d50303; position: relative; }
+.header .nav .nav-bgc { position: absolute; left: 0; top: 50px; height: 40px; width: 100%; background: #b90000; display: none; z-index: 9999; }
+.header .nav .menu { width: 1200px; height: 100%; margin: 0 auto; }
+.header .nav .menu ul { height: 100%; width: auto; clear: both; position: relative; }
+.header .nav .menu ul li { height: 50px; width: auto; list-style: none; float: left; }
+.header .nav .menu ul li a { display: block; text-align: center; line-height: 50px; height: 100%; width: 120px; color: #ffffff; font-size: 16px; font-family: "Microsoft Yahei"; }
+.header .nav .menu ul li:hover a { background: #b90000; }
+.header .nav .menu ol { position: absolute; left: 0; top: 50px; z-index: 99999; clear: both; width: 100%; display: none; }
+.header .nav .menu ol li { height: 40px; width: auto; list-style: none; float: left; opacity: 0.85; }
+.header .nav .menu ol li a { display: block; text-align: center; line-height: 40px; height: 100%; width: 120px; color: #ffffff; font-size: 14px; font-family: "Microsoft Yahei"; }
+.header .nav .menu ol li a:hover { color: #fcafaf; }
+.header .head-top { height: 120px; width: 1200px; margin: 0 auto; }
+.header .head-top .logo { float: left; height: 100%; width: 390px; line-height: 120px; }
+.header .head-top .logo img { vertical-align: middle; }
+.header .head-top .wrap { float: right; width: auto; height: 25px; padding: 55px 0 40px 0; }
+.header .head-top .wrap ol { height: 25px; width: auto; }
+.header .head-top .wrap ol li { height: 100%; width: auto; margin-left: 23px; }
+.header .head-top .wrap ol li a { text-decoration: none; color: #999999; font-family: "Microsoft Yahei"; font-size: 12px; margin-left: 5px; line-height: 23px; margin-top: 3px; display: inline-block; *display: inline; }
+.header .head-top .wrap ol li a:hover { text-decoration: underline; }
+.header .head-top .wrap ol li img { vertical-align: top; }
+.header .head-top .wrap ol li:nth-last-of-type(2) a { margin-top: 4px; }
+.header .head-top .wrap ol li:nth-last-of-type(1) a { margin-top: 5px; }
+.header .head-top .wrap ol .lookup input { width: 85%; height: 100%; outline: none; border: none; text-indent: 6px; background: none; }
+.header .head-top .wrap ol .lookup input[type='submit'] { width: 15px; height: 15px; font-size: 0; vertical-align: middle; background: url("../img/lookup.png"); }
+.header .head-top .wrap ol .lookup b { display: inline-block; width: 148px; height: 23px; line-height: 23px; border: 1px solid #898989; border-radius: 3px; text-align: center; }
+.header .head-top .wrap ol .lookup span { color: #999999; font-family: "Microsoft Yahei"; font-size: 12px; margin-left: 5px; display: inline-block; *display: inline; margin-top: 2px; }
+.header .head-top .wrap ol .contribute a { position: relative; }
+.header .head-top .wrap ol .contribute input { cursor: pointer; width: 24px; filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0); position: absolute; opacity: 0; left: 0; top: 0; }
+.header .head-top .wrap ol .phone-news { position: relative; }
+.header .head-top .wrap ol .phone-news div { width: 110px; height: auto; text-align: center; position: absolute; background: #fff; overflow: hidden; left: -15px; top: 30px; z-index: 9999; display: none; padding-bottom: 15px; }
+.header .head-top .wrap ol .phone-news div h6 { color: #d50303; }
+.header .head-top .wrap ol .phone-news div img { vertical-align: middle; }
+
+.footer { height: 160px; width: 100%; text-align: center; background: #626262; overflow: hidden; padding-top: 40px; }
+.footer p { color: #fff; font-size: 12px; line-height: 12px; }
+.footer p span { margin-right: 14px; }
+.footer p img { margin-right: 14px; }
+.footer .Pageviews { margin-bottom: 8px; }
+.footer .Pageviews span { display: inline-block; *display: inline; width: auto; height: 20px; text-align: center; background: #fff; color: #333333; line-height: 20px; margin: 0 0 0 12px; padding: 0 9px; }
+.footer .company { margin: 10px 0; }
+.footer .company span:nth-last-of-type(1) { margin-left: 9px; }
+
+.current-date { height: 45px; width: 100%; line-height: 45px; overflow: hidden; }
+.current-date .now-time { float: left; }
+.current-date .now-time span { margin-right: 30px; }
+.current-date .weather { float: right; padding-top: 10px; }
+.current-date span { color: #666666; font-size: 12px; font-weight: 600; font-family: "Microsoft Yahei"; }
+
+.left-nav { width: 240px; height: auto; float: left; }
+.left-nav ul { width: 240px; height: auto; background: #95c4ea; clear: both; padding-bottom: 9px; margin-bottom: 30px; }
+.left-nav ul li { width: 100%; height: auto; clear: both; text-align: center; line-height: 39px; list-style: none; }
+.left-nav ul li a { display: block; width: 200px; height: 39px; margin: 0 auto; color: #666666; font-size: 14px; font-family: "Microsoft Yahei"; border-bottom: 1px solid #84bae5; }
+.left-nav ul li span { font-family: 'iconfont'; font-size: 10px; margin-right: 6px; }
+.left-nav ul li:nth-last-of-type(1) a { border-bottom: 1px solid #d7edff; }
+.left-nav ul .menuHead { height: 41px; }
+.left-nav ul .menuHead a { border-bottom: 2px solid #d7edff; color: #333333; font-size: 18px; }
+.left-nav ol { z-index: 99; background: #95c4ea; width: 240px; height: auto; clear: both; display: none; }
+.left-nav ol li { width: 100%; height: 40px; clear: both; text-align: center; line-height: 39px; list-style: none; }
+.left-nav ol li a { display: block; width: 200px; height: 39px; margin: 0 auto; color: #666666; font-size: 14px; font-family: "Microsoft Yahei"; border-bottom: 1px solid #84bae5 !important; }
+.left-nav ol li span { font-family: 'iconfont'; font-size: 10px; margin-right: 6px; }
+
+.welcome { width: 100%; height: auto; background: #fff; overflow: hidden; }
+.welcome .wel-content { padding-top: 20px; width: 1200px; height: auto; margin: 0 auto; overflow: hidden; }
+.welcome .wel-content .slider { width: 100%; height: 280px; overflow: hidden; max-height: 280px; position: relative; }
+.welcome .wel-content .section-lt { float: left; width: 870px; height: auto; overflow: hidden; }
+.welcome .wel-content .section-lt .company-news { height: auto; width: 100%; padding-bottom: 30px; overflow: hidden; }
+.welcome .wel-content .section-lt .company-news .news-slider { width: 410px; height: 235px; overflow: hidden; position: relative; float: left; }
+.welcome .wel-content .section-lt .company-news .news-slider .swiper-container, .welcome .wel-content .section-lt .company-news .news-slider .swiper-wrapper, .welcome .wel-content .section-lt .company-news .news-slider .swiper-slide { height: auto !important; position: relative; }
+.welcome .wel-content .section-lt .company-news .news-slider .paginationNews { position: absolute; z-index: 25; bottom: 8px; right: 70px; width: auto; }
+.welcome .wel-content .section-lt .company-news .news-slider .swiper-pagination-switch { display: inline-block; width: 8px; height: 8px; border-radius: 8px; margin: 0 3px; opacity: 1; background: #fff; cursor: pointer; }
+.welcome .wel-content .section-lt .company-news .news-slider .swiper-active-switch { background: #d50303; }
+.welcome .wel-content .section-lt .company-news .news-slider .news-sliderTxt { position: absolute; bottom: 0; left: 0; height: 40px; width: 410px; }
+.welcome .wel-content .section-lt .company-news .news-slider .news-sliderTxt b { display: block; position: absolute; left: 0; top: 0; width: 100%; height: 100%; opacity: 0.4; filter: progid:DXImageTransform.Microsoft.Alpha(opacity=40); background: black; z-index: 10; }
+.welcome .wel-content .section-lt .company-news .news-slider .news-sliderTxt p { position: absolute; left: 11px; color: #fff; line-height: 40px; z-index: 20; font-size: 14px; font-family: "Microsoft Yahei"; width: 210px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.welcome .wel-content .section-lt .company-news .company-newsBox { float: right; width: 425px; height: auto; }
+.welcome .wel-content .section-lt .company-news .company-newsBox .items-top { height: 35px; width: auto; padding-right: 4px; line-height: 35px; text-align: right; }
+.welcome .wel-content .section-lt .company-news .company-newsBox .items-top h3 { float: left; color: #333333; font-size: 18px; font-family: "Microsoft Yahei"; width: 100px; height: 30px; line-height: 28px; text-align: center; border-radius: 5px; -webkit-transition: all 0.4s linear; -moz-transition: all 0.4s linear; -o-transition: all 0.4s linear; transition: all 0.4s linear; }
+.welcome .wel-content .section-lt .company-news .company-newsBox .items-top h3:hover { background: #1580d2; color: #ffffff; }
+.welcome .wel-content .section-lt .company-news .company-newsBox .items-top a { color: #333333; font-size: 12px; font-family: "Microsoft Yahei"; text-decoration: none; }
+.welcome .wel-content .section-lt .company-news .company-newsBox .items-top a:hover { color: #d50303; }
+.welcome .wel-content .section-lt .company-news .company-newsBox .items-btm { width: 100%; height: 200px; overflow: hidden; border-top: 1px solid #a00202; }
+.welcome .wel-content .section-lt .company-news .company-newsBox .items-btm ol { clear: both; width: 100%; }
+.welcome .wel-content .section-lt .company-news .company-newsBox .items-btm ol li { list-style-type: disc; clear: both; line-height: 0px; list-style-position: inside; width: 96%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.welcome .wel-content .section-lt .company-news .company-newsBox .items-btm a { color: #666666; font-size: 14px; font-family: "Microsoft Yahei"; line-height: 20px; text-decoration: none; }
+.welcome .wel-content .section-lt .company-news .company-newsBox .items-btm a:hover { color: #1580d2; }
+.welcome .wel-content .section-lt .show-img { width: 100%; height: auto; overflow: hidden; }
+.welcome .wel-content .section-lt .show-img img { width: 100%; }
+.welcome .wel-content .section-lt .wel-news { width: 100%; height: auto; padding-bottom: 50px; overflow: hidden; }
+.welcome .wel-content .section-lt .wel-news .news-lt { width: 410px; height: auto; float: left; }
+.welcome .wel-content .section-lt .wel-news .news-rt { float: right; width: 425px; height: auto; }
+.welcome .wel-content .section-lt .wel-news .items { margin-top: 30px; height: 136px; width: 100%; overflow: hidden; }
+.welcome .wel-content .section-lt .wel-news .items .items-top { height: 35px; text-align: right; }
+.welcome .wel-content .section-lt .wel-news .items .items-top h3 { float: left; color: #333333; font-size: 18px; font-family: "Microsoft Yahei"; width: 100px; height: 30px; line-height: 28px; text-align: center; border-radius: 5px; -webkit-transition: all 0.4s linear; -moz-transition: all 0.4s linear; -o-transition: all 0.4s linear; transition: all 0.4s linear; }
+.welcome .wel-content .section-lt .wel-news .items .items-top h3:hover { background: #1580d2; color: #ffffff; }
+.welcome .wel-content .section-lt .wel-news .items .items-top a { font-size: 12px; font-family: "Microsoft Yahei"; color: #333333; text-decoration: none; line-height: 35px; margin-right: 4px; }
+.welcome .wel-content .section-lt .wel-news .items .items-top a:hover { color: #d50303; }
+.welcome .wel-content .section-lt .wel-news .items .items-txt { height: 100px; width: 100%; clear: both; overflow: hidden; border-top: 1px solid #a00202; }
+.welcome .wel-content .section-lt .wel-news .items .items-txt ol { clear: both; width: 100%; }
+.welcome .wel-content .section-lt .wel-news .items .items-txt ol li { list-style-type: disc; clear: both; line-height: 0px; list-style-position: inside; width: 96%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.welcome .wel-content .section-lt .wel-news .items .items-txt ol a { color: #666666; font-size: 14px; font-family: "Microsoft Yahei"; line-height: 20px; text-decoration: none; }
+.welcome .wel-content .section-lt .wel-news .items .items-txt ol a:hover { color: #1580d2; }
+.welcome .wel-content .section-lt .wel-honor { width: 100%; height: 250px; overflow: hidden; background: url("../img/honor-bgc.jpg"); }
+.welcome .wel-content .section-lt .wel-honor .honor-top { height: 30px; width: auto; padding: 15px 0 30px 10px; text-align: right; }
+.welcome .wel-content .section-lt .wel-honor .honor-top span { display: block; width: 100px; height: 30px; border-radius: 5px; background: #1580d2; color: #fff; text-align: center; font-size: 18px; line-height: 30px; float: left; }
+.welcome .wel-content .section-lt .wel-honor .honor-top a { margin-right: 7px; color: #666666; font-size: 12px; font-family: "Microsoft Yahei"; text-decoration: none; }
+.welcome .wel-content .section-lt .wel-honor .honor-top a:hover { text-decoration: underline; }
+.welcome .wel-content .section-lt .wel-honor .honor-slider { height: 150px; width: auto; text-align: center; margin: 0 45px; overflow: hidden; }
+.welcome .wel-content .section-lt .wel-honor .honor-slider .swiper-containerHonor, .welcome .wel-content .section-lt .wel-honor .honor-slider .swiper-wrapper, .welcome .wel-content .section-lt .wel-honor .honor-slider .swiper-slide { height: auto !important; }
+.welcome .wel-content .section-lt .wel-honor .honor-slider .swiper-slide div { width: 236px; height: 146px; overflow: hidden; border: 2px solid #a00202; }
+.welcome .wel-content .section-lt .wel-honor .honor-slider .swiper-slide img { width: 100%; }
+.welcome .wel-content .section-rt { float: right; width: 280px; height: auto; overflow: hidden; }
+.welcome .wel-content .section-rt .wel-notice { width: auto; height: 118px; border: 1px solid #666666; }
+.welcome .wel-content .section-rt .wel-notice .notice-top { height: 30px; width: 100%; line-height: 30px; border-bottom: 1px solid #666666; text-align: center; }
+.welcome .wel-content .section-rt .wel-notice .notice-top img { float: left; vertical-align: middle; margin: 9px 0 0 42px; }
+.welcome .wel-content .section-rt .wel-notice .notice-top a { float: right; margin-right: 8px; color: #666666; font-size: 12px; font-family: "Microsoft Yahei"; text-decoration: none; }
+.welcome .wel-content .section-rt .wel-notice .notice-top a:hover { color: #d50303; }
+.welcome .wel-content .section-rt .wel-notice .notice-top h6 { color: #333333; font-size: 16px; font-family: "Microsoft Yahei"; }
+.welcome .wel-content .section-rt .wel-notice ul { width: 100%; height: 89px; overflow: hidden; }
+.welcome .wel-content .section-rt .wel-notice ul li { list-style-type: disc; clear: both; line-height: 0px; list-style-position: inside; width: 90%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; margin-left: 8%; }
+.welcome .wel-content .section-rt .wel-notice ul a { line-height: 22px; color: #666666; font-size: 12px; font-family: "Microsoft Yahei"; text-decoration: none; }
+.welcome .wel-content .section-rt .wel-notice ul a:hover { color: #1580d2; }
+.welcome .wel-content .section-rt .wel-link { width: auto; height: 109px; margin: 6px 0 30px 0; border: 1px solid #c7c2fc; padding: 1px 0 0 10px; overflow: hidden; background: #f0f0f0; }
+.welcome .wel-content .section-rt .wel-link div { width: 122px; height: 42px; float: left; margin: 8px 11px 0 0; overflow: hidden; text-align: right; line-height: 18px; }
+.welcome .wel-content .section-rt .wel-link div a { display: block; }
+.welcome .wel-content .section-rt .wel-link div h4 { color: #333333; font-size: 14px; font-family: "Microsoft Yahei"; margin-right: 10px; }
+.welcome .wel-content .section-rt .wel-link div span { color: #666666; font-size: 12px; font-family: "Microsoft Yahei"; font-weight: 500; margin-right: 10px; }
+.welcome .wel-content .section-rt .wel-link .apt-btn { background: url("../img/wel-link1.jpg"); padding: 4px 14px 0 0; width: 108px; height: 38px; }
+.welcome .wel-content .section-rt .wel-link .sub-btn { background: url("../img/wel-link2.jpg"); height: 38px; padding-top: 4px; }
+.welcome .wel-content .section-rt .wel-link .bro-btn { background: url("../img/wel-link3.jpg"); padding: 4px 14px 0 0; width: 108px; height: 38px; }
+.welcome .wel-content .section-rt .wel-link .ins-btn { background: url("../img/wel-link4.jpg"); height: 38px; padding-top: 4px; }
+.welcome .wel-content .section-rt .wel-video { width: 100%; height: 170px; overflow: hidden; text-align: center; }
+.welcome .wel-content .section-rt .wel-video a { display: block; height: 100%; }
+.welcome .wel-content .section-rt .wel-video video { height: 100%; }
+.welcome .wel-content .section-rt .wel-video a { display: block; }
+.welcome .wel-content .section-rt .propaganda { height: auto; width: 100%; overflow: hidden; }
+.welcome .wel-content .section-rt .propaganda ul { width: 100%; height: auto; }
+.welcome .wel-content .section-rt .propaganda ul li { width: 278px; height: 78px; border: 1px solid #f00404; margin-top: 15px; overflow: hidden; position: relative; text-align: center; }
+.welcome .wel-content .section-rt .propaganda ul li img { width: 100%; }
+.welcome .wel-content .section-rt .propaganda ul li div { position: absolute; left: 0; top: 0; width: 100%; height: 100%; }
+.welcome .wel-content .section-rt .propaganda ul li div p { line-height: 78px; }
+.welcome .wel-content .section-rt .propaganda ul li div span { color: #d50303; font-size: 14px; font-weight: bold; font-family: "Microsoft Yahei"; display: block; }
+.welcome .wel-content .section-rt .propaganda ul li:nth-child(3) p { color: #b40600; font-size: 18px; font-weight: bold; font-family: "Microsoft Yahei"; }
+.welcome .wel-content .section-rt .propaganda ul li:nth-child(2) p { color: #fff; font-size: 16px; font-weight: bold; font-family: "Microsoft Yahei"; }
+.welcome .wel-content .section-rt .propaganda ul li:nth-child(1) div { padding-top: 12px; }
+.welcome .wel-content .section-rt .propaganda ul li:nth-child(1) span { line-height: 20px; }
+.welcome .wel-content .section-rt .propaganda ul li:nth-child(1) span:nth-child(1) { writing-mode: vertical-lr; writing-mode: tb-lr; position: absolute; top: 14px; left: 34px; }
+.welcome .wel-content .section-rt .wel-share { width: 100%; height: auto; padding: 20px 0 0 0; text-align: center; font-size: 0; overflow: hidden; }
+.welcome .wel-content .section-rt .wel-share .QRcode { display: inline-block; margin: 0 12px; }
+.welcome .wel-content .section-rt .wel-share .QRcode span { color: #333333; font-size: 12px; font-family: "Microsoft Yahei"; }
+.welcome .wel-content .section-rt .wel-share .QRcode div { width: 73px; height: 73px; line-height: 73px; border: 1px solid #717171; }
+.welcome .wel-content .section-rt .wel-share .share-btn { width: 100%; height: auto; }
+.welcome .wel-content .section-rt .wel-share .share-btn button { width: 123px; height: 38px; border: none; outline: none; margin: 0 5px; }
+.welcome .wel-content .section-rt .wel-share .share-btn .plot { background: url("../img/share-btn1.jpg"); }
+.welcome .wel-content .section-rt .wel-share .share-btn .download { background: url("../img/share-btn2.jpg"); }
+.welcome .wel-content .section-rt .wel-dynamic { width: 100%; height: 250px; margin-top: 53px; overflow: hidden; }
+.welcome .wel-content .section-rt .wel-dynamic .dynamic-top { margin-top: 15px; height: 35px; line-height: 35px; border-bottom: 1px solid #a00202; }
+.welcome .wel-content .section-rt .wel-dynamic .dynamic-top h3 { float: left; color: #333333; font-size: 16px; font-family: "Microsoft Yahei"; }
+.welcome .wel-content .section-rt .wel-dynamic .dynamic-top a { float: right; color: #666666; font-size: 12px; font-family: "Microsoft Yahei"; text-decoration: none; }
+.welcome .wel-content .section-rt .wel-dynamic .dynamic-top a:hover { color: #d50303; }
+.welcome .wel-content .section-rt .wel-dynamic ol { clear: both; width: 100%; height: auto; overflow: hidden; padding-top: 15px; }
+.welcome .wel-content .section-rt .wel-dynamic ol li { list-style-type: disc; clear: both; line-height: 0px; list-style-position: inside; width: 96%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.welcome .wel-content .section-rt .wel-dynamic ol a { line-height: 22px; color: #666666; font-size: 12px; font-family: "Microsoft Yahei"; text-decoration: none; }
+.welcome .wel-content .section-rt .wel-dynamic ol a:hover { color: #1580d2; }
+.welcome .wel-content .high-quality { width: 100%; height: auto; clear: both; background: #fff; overflow: hidden; }
+.welcome .wel-content .high-quality .items-top { width: auto; height: 35px; margin-top: 40px; border-bottom: 1px solid #a00202; text-align: right; padding: 0 6px 0 10px; }
+.welcome .wel-content .high-quality .items-top span { display: block; float: left; width: 100px; height: 30px; border-radius: 5px; color: #fff; background: #1580d2; line-height: 30px; font-size: 18px; text-align: center; }
+.welcome .wel-content .high-quality .items-top a { color: #666666; font-size: 12px; font-family: "Microsoft Yahei"; line-height: 38px; text-decoration: none; }
+.welcome .wel-content .high-quality .items-top a:hover { color: #d50303; }
+.welcome .wel-content .high-quality .items { width: 240px; height: 150px; margin: 30px 0 55px 48px; float: left; position: relative; overflow: hidden; perspective: 800px; }
+.welcome .wel-content .high-quality .items img { width: 100%; }
+.welcome .wel-content .high-quality .items .box { position: absolute; left: 0px; width: 240px; height: 150px; text-align: center; transform-style: preserve-3d; transform-origin: right center; }
+.welcome .wel-content .high-quality .items .box a { display: block; width: 100%; height: 100%; position: absolute; left: 0; top: 0; backface-visibility: hidden; }
+.welcome .wel-content .high-quality .items .box span { color: #fff; font-size: 16px; font-family: "Microsoft Yahei"; display: block; margin: 22px 0 8px 0; }
+.welcome .wel-content .high-quality .items .box P { color: #fff; font-size: 14px; font-family: "Microsoft Yahei"; width: 175px; margin: 0 auto; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 3; overflow: hidden; }
+.welcome .wel-content .high-quality .items .box .box-img { transition: .8s transform; }
+.welcome .wel-content .high-quality .items .box .box-txt { background: #1580d2; transform: rotateY(-180deg); transition: 0.8s transform; }
+.welcome .wel-content .high-quality .items:hover .box-img { transform: rotateY(180deg); }
+.welcome .wel-content .high-quality .items:hover .box-txt { transform: rotateY(0deg); }
+.welcome .wel-content .wel-ongoing { height: 240px; width: 100%; clear: both; overflow: hidden; background: url("../img/ongoing-bgc.jpg"); }
+.welcome .wel-content .wel-ongoing .items-top { width: auto; height: 30px; text-align: right; padding: 0 6px 0 10px; }
+.welcome .wel-content .wel-ongoing .items-top span { display: block; float: left; width: 100px; height: 30px; border-radius: 5px; color: #fff; background: #1580d2; line-height: 30px; font-size: 18px; text-align: center; }
+.welcome .wel-content .wel-ongoing .items-top a { color: #666666; font-size: 12px; font-family: "Microsoft Yahei"; line-height: 30px; text-decoration: none; }
+.welcome .wel-content .wel-ongoing .items-top a:hover { color: #d50303; }
+.welcome .wel-content .wel-ongoing .items { width: 240px; height: 185px; margin: 25px 0 0px 48px; float: left; overflow: hidden; text-align: center; }
+.welcome .wel-content .wel-ongoing .items div { width: 240px; height: 150px; overflow: hidden; }
+.welcome .wel-content .wel-ongoing .items div:hover img { -webkit-transform: scale(1.2, 1.2); -moz-transform: scale(1.2, 1.2); -ms-transform: scale(1.2, 1.2); -o-transform: scale(1.2, 1.2); transform: scale(1.2, 1.2); }
+.welcome .wel-content .wel-ongoing .items img { width: 100%; -webkit-transition: all 0.6s linear; -moz-transition: all 0.6s linear; -o-transition: all 0.6s linear; transition: all 0.6s linear; }
+.welcome .wel-content .wel-ongoing .items p { line-height: 30px; color: #666666; font-size: 12px; font-family: "Microsoft Yahei"; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.welcome .wel-content .foot-link { width: 100%; height: 90px; line-height: 90px; text-align: center; overflow: hidden; }
+.welcome .wel-content .foot-link select { margin: 0 15px; width: 198px; height: 28px; border: 1px solid #333333; outline: none; border-radius: 4px; text-align: center; color: #333333; font-size: 14px; }
+.welcome .wel-content .foot-link span { margin-right: 9px; color: #333333; font-size: 16px; }
+
+.intro { height: auto; width: 100%; clear: both; background: #fff; clear: both; }
+.intro .intro-content { height: auto; width: 1200px; margin: 0 auto; clear: both; overflow: hidden; padding: 20px 0 70px 0; }
+.intro .intro-content .banner { width: 1200px; height: 220px; overflow: hidden; }
+.intro .intro-content .banner img { width: 100%; }
+.intro .intro-content .content-lt { width: 240px; height: auto; float: left; padding-right: 35px; }
+.intro .intro-content .content-box { float: left; height: auto; width: 759px; margin-top: 3px; padding: 55px 82px 50px 82px; border: 1px dashed #cccccc; }
+.intro .intro-content .content-box h3 { color: #333333; font-size: 22px; font-family: "Microsoft Yahei"; font-weight: normal; text-align: center; }
+.intro .intro-content .content-box b { display: block; width: 100%; height: 1px; background: #cccccc; margin: 40px 0; }
+.intro .intro-content .content-box p { color: #666666; font-size: 14px; font-family: "Microsoft Yahei"; text-indent: 32px; }
+
+.news { width: 100%; height: auto; background: #fff; overflow: hidden; clear: both; }
+.news .news-content { width: 1200px; height: auto; overflow: hidden; margin: 0 auto; padding-top: 20px; }
+.news .news-content .banner { width: 1200px; height: 220px; overflow: hidden; }
+.news .news-content .banner img { width: 100%; }
+.news .news-content .content-lt { width: 240px; height: auto; float: left; overflow: hidden; padding-right: 35px; }
+.news .news-content .content-lt .items { width: 240px; height: 150px; overflow: hidden; position: relative; margin-bottom: 10px; clear: both; }
+.news .news-content .content-lt .items img { width: 100%; }
+.news .news-content .content-lt .items div { position: absolute; width: 100%; height: 30px; left: 0; bottom: -30px; overflow: hidden; }
+.news .news-content .content-lt .items div b { display: block; position: absolute; width: 100%; height: 100%; left: 0; top: 0; background: black; opacity: 0.4; filter: progid:DXImageTransform.Microsoft.Alpha(opacity=40); z-index: 20; }
+.news .news-content .content-lt .items div p { position: absolute; left: 0; right: 0; text-align: center; line-height: 30px; z-index: 30; color: #ffffff; font-size: 14px; font-family: "Microsoft Yahei"; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.news .news-content .content-lt .items:hover div { bottom: 0px; -webkit-transition: all 0.4s linear; -moz-transition: all 0.4s linear; -o-transition: all 0.4s linear; transition: all 0.4s linear; }
+.news .news-content .content-rt { float: left; width: 925px; height: auto; }
+.news .news-content .content-rt .paging { width: 100%; height: 90px; clear: both; text-align: center; }
+.news .news-content .rt-box { height: auto; width: 759px; margin-top: 3px; padding: 55px 82px 20px 82px; border: 1px dashed #cccccc; }
+.news .news-content .rt-box h3 { color: #333333; font-size: 22px; font-family: "Microsoft Yahei"; font-weight: normal; text-align: center; margin-bottom: 40px; }
+.news .news-content .rt-box .item { height: 70px; width: 100%; padding: 30px 0; border-top: 1px solid #cccccc; overflow: hidden; clear: both; }
+.news .news-content .rt-box .item a { display: block; }
+.news .news-content .rt-box .item .item-lt { float: left; width: 120px; height: 70px; overflow: hidden; }
+.news .news-content .rt-box .item .item-lt img { width: 100%; }
+.news .news-content .rt-box .item .item-rt { width: 624px; height: 70px; float: left; overflow: hidden; padding-left: 15px; }
+.news .news-content .rt-box .item .item-rt h5 { color: #333333; font-size: 14px; font-family: "Microsoft Yahei"; margin-bottom: 6px; }
+.news .news-content .rt-box .item .item-rt p { color: #666666; font-size: 14px; font-family: "Microsoft Yahei"; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; overflow: hidden; }
+
+.newsinfo { width: 100%; height: auto; overflow: hidden; clear: both; background: #fff; }
+.newsinfo .info-content { width: 1200px; height: auto; margin: 0 auto; overflow: hidden; padding-bottom: 70px; }
+.newsinfo .info-content .info-lt { float: left; width: 240px; padding-right: 35px; height: auto; overflow: hidden; }
+.newsinfo .info-content .info-rt { float: left; height: auto; width: 759px; margin-top: 3px; padding: 40px 82px 50px 82px; border: 1px dashed #cccccc; }
+.newsinfo .info-content .info-rt .info-head { width: 100%; height: auto; text-align: center; padding-bottom: 10px; border-bottom: 1px solid #bfbfbf; }
+.newsinfo .info-content .info-rt .info-head h3 { color: #333333; font-size: 18px; font-family: "Microsoft Yahei"; margin-bottom: 40px; }
+.newsinfo .info-content .info-rt .info-head p { color: #333333; font-size: 12px; font-family: "Microsoft Yahei"; }
+.newsinfo .info-content .info-rt .info-head p span { margin-right: 24px; }
+.newsinfo .info-content .info-rt .info-itmes { width: 100%; height: auto; overflow: hidden; margin-top: 30px; text-align: center; }
+.newsinfo .info-content .info-rt .info-itmes img { max-width: 760px; margin-top: 20px; }
+.newsinfo .info-content .info-rt .info-itmes p { text-align: left; color: #666666; font-size: 14px; font-family: "Microsoft Yahei"; text-indent: 32px; }
+
+.engineering { width: 100%; height: auto; clear: both; overflow: hidden; background: #fff; }
+.engineering .rw-content { width: 1200px; height: auto; margin: 0 auto; overflow: hidden; padding-top: 20px; }
+.engineering .rw-content .banner { width: 1200px; height: 220px; overflow: hidden; }
+.engineering .rw-content .banner img { width: 100%; }
+.engineering .rw-content .box-left { float: left; width: 240px; height: auto; overflow: hidden; padding-right: 35px; }
+.engineering .rw-content .box-right { float: left; width: 925px; height: auto; overflow: hidden; }
+.engineering .rw-content .box-right .items-box { height: auto; width: 759px; margin-top: 3px; padding: 55px 82px 20px 82px; border: 1px dashed #cccccc; overflow: hidden; }
+.engineering .rw-content .box-right .items-box h3 { text-align: center; color: #333333; font-size: 22px; font-family: "Microsoft Yahei"; font-weight: normal; margin-bottom: 40px; }
+.engineering .rw-content .box-right .items-box .items { float: left; width: 238px; height: 198px; border: 1px solid #e5e5e5; margin-bottom: 30px; text-align: center; }
+.engineering .rw-content .box-right .items-box .items a { display: block; }
+.engineering .rw-content .box-right .items-box .items div { width: 100%; height: 150px; overflow: hidden; }
+.engineering .rw-content .box-right .items-box .items div img { width: 100%; }
+.engineering .rw-content .box-right .items-box .items span { line-height: 49px; color: #333333; font-size: 14px; font-family: "Microsoft Yahei"; }
+.engineering .rw-content .box-right .items-box .items:nth-of-type(3n-1) { margin-right: 19px; }
+.engineering .rw-content .box-right .items-box .items:nth-of-type(3n-2) { margin-right: 19px; }
+.engineering .rw-content .box-right .paging { height: 90px; width: 100%; text-align: center; overflow: hidden; }
+
+.ebook { width: 100%; height: auto; background: #fff; clear: both; overflow: hidden; }
+.ebook .ebook-content { width: 1200px; height: auto; overflow: hidden; margin: 0 auto; padding-top: 20px; }
+.ebook .ebook-content .banner { width: 1200px; height: 220px; overflow: hidden; }
+.ebook .ebook-content .banner img { width: 100%; }
+.ebook .ebook-content .ebook-lt { width: 240px; height: auto; overflow: hidden; padding-right: 35px; float: left; }
+.ebook .ebook-content .ebook-rt { float: left; width: 925px; height: auto; overflow: hidden; margin-top: 3px; padding-top: 55px; border-top: 1px solid #cccccc; }
+.ebook .ebook-content .ebook-rt h3 { color: #333333; font-size: 22px; font-family: "Microsoft Yahei"; font-weight: normal; text-align: center; margin-bottom: 40px; }
+.ebook .ebook-content .ebook-rt img { max-width: 925px; }
+.ebook .ebook-content .ebook-rt .items { height: 87px; width: 100%; text-align: center; line-height: 87px; }
+.ebook .ebook-content .ebook-rt .items img { margin-right: 14px; }
+.ebook .ebook-content .ebook-rt .items a { color: #333333; font-size: 14px; font-family: "Microsoft Yahei"; text-decoration: underline; }
+.ebook .ebook-content .ebook-rt .bgc { height: 73px; width: 100%; background: #dbeff3; }
+
+.qualification { height: auto; width: 100%; clear: both; overflow: hidden; background: #fff; }
+.qualification .qf-content { width: 1200px; height: auto; margin: 0 auto; overflow: hidden; padding-top: 20px; }
+.qualification .qf-content .banner { width: 1200px; height: 220px; overflow: hidden; }
+.qualification .qf-content .banner img { width: 100%; }
+.qualification .qf-content .qf-lt { float: left; width: 240px; height: auto; overflow: hidden; padding-right: 35px; }
+.qualification .qf-content .qf-rt { float: left; overflow: hidden; height: auto; width: 759px; margin: 3px 0 70px 0; padding: 55px 82px 50px 82px; border: 1px dashed #cccccc; }
+.qualification .qf-content .qf-rt h3 { color: #333333; font-size: 22px; font-family: "Microsoft Yahei"; font-weight: normal; text-align: center; margin-bottom: 40px; }
+.qualification .qf-content .qf-rt b { display: block; width: 100%; height: 1px; background: #cccccc; margin: 40px 0; }
+.qualification .qf-content .qf-rt .items { width: 100%; height: 231px; margin-bottom: 40px; overflow: hidden; }
+.qualification .qf-content .qf-rt .items .items-img { float: left; height: 100%; width: 366px; overflow: hidden; }
+.qualification .qf-content .qf-rt .items .items-txt { float: left; height: 217px; width: 340px; padding-left: 53px; padding-top: 14px; overflow: hidden; }
+.qualification .qf-content .qf-rt .items .items-txt span { display: block; color: #333333; font-size: 16px; font-weight: 500; font-family: "Microsoft Yahei"; }
+.qualification .qf-content .qf-rt .items-btm { width: 100%; height: auto; overflow: hidden; }
+.qualification .qf-content .qf-rt .items-btm div { float: left; width: 212px; height: 313px; overflow: hidden; margin-right: 24px; }
+
+.honor { width: 100%; height: auto; background: #fff; overflow: hidden; clear: both; }
+.honor .honor-content { width: 1200px; height: auto; background: #fff; overflow: hidden; margin: 0 auto; padding-top: 20px; }
+.honor .honor-content .banner { width: 1200px; height: 220px; overflow: hidden; }
+.honor .honor-content .banner img { width: 100%; }
+.honor .honor-content .honor-lt { width: 240px; height: auto; float: left; overflow: hidden; padding-right: 35px; }
+.honor .honor-content .honor-rt { width: 925px; height: auto; float: left; overflow: hidden; }
+.honor .honor-content .honor-rt .paging { width: 100%; height: 90px; clear: both; text-align: center; overflow: hidden; }
+.honor .honor-content .honor-rt .rt-content { width: 100%; height: auto; margin-top: 3px; padding-top: 55px; overflow: hidden; border-bottom: 1px solid #cccccc; border-top: 1px solid #cccccc; }
+.honor .honor-content .honor-rt .rt-content h3 { color: #333333; font-size: 22px; font-family: "Microsoft Yahei"; font-weight: normal; text-align: center; }
+.honor .honor-content .honor-rt .rt-content .items { float: left; width: 278px; height: 290px; overflow: hidden; text-align: center; margin-top: 40px; }
+.honor .honor-content .honor-rt .rt-content .items div { width: auto; height: 218px; overflow: hidden; text-align: center; border: 1px solid #e5e5e5; margin-bottom: 15px; }
+.honor .honor-content .honor-rt .rt-content .items div img { vertical-align: middle; line-height: 218px; }
+.honor .honor-content .honor-rt .rt-content .items p { color: #666666; font-size: 14px; font-family: "Microsoft Yahei"; }
+.honor .honor-content .honor-rt .rt-content .items:nth-of-type(3n-1) { margin-right: 42px; }
+.honor .honor-content .honor-rt .rt-content .items:nth-of-type(3n-2) { margin-right: 42px; }
+
+/*# sourceMappingURL=style.css.map */

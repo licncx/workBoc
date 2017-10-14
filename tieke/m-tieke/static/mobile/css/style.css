@@ -1,0 +1,184 @@
+body { margin: 0px; padding: 0px; }
+
+ul, ol, p, h1, h2, h3, h4, h5, h6 { margin: 0px; padding: 0px; }
+
+@font-face { font-family: 'iconfont'; src: url("fonts/iconfont.eot"); src: url("fonts/iconfont.eot?#iefix") format("embedded-opentype"), url("fonts/iconfont.woff") format("woff"), url("fonts/iconfont.ttf") format("truetype"), url("fonts/iconfont.svg#iconfont") format("svg"); }
+.header { height: 0.88rem; width: auto; background: #fff; padding: 0 0.46rem; position: relative; text-align: center; }
+.header .wrap { float: left; line-height: 0.88rem; }
+.header .wrap img { vertical-align: middle; width: 0.4rem; }
+.header .wrap .menu { width: 5rem; background: #182858; position: absolute; left: -5.1rem; top: 0; z-index: 9999; }
+.header .wrap .menu .close { height: 0.88rem; line-height: 0.88rem; padding: 0 0.46rem; text-align: right; margin-bottom: 1.05rem; }
+.header .wrap .menu .close img { vertical-align: middle; width: 0.36rem; }
+.header .wrap .menu .nav { width: 100%; height: 100%; text-align: left; }
+.header .wrap .menu .nav ul { width: 100%; height: auto; float: none; }
+.header .wrap .menu .nav ul li { float: none; list-style: none; width: 100%; height: auto; }
+.header .wrap .menu .nav ul li a { display: block; width: auto; height: 0.79rem; line-height: 0.79rem; padding: 0 0.46rem; border-bottom: 1px solid #8c94ac; }
+.header .wrap .menu .nav ul li a span { float: left; color: #fff; font-size: 0.24rem; font-family: "Microsoft Yahei"; }
+.header .wrap .menu .nav ul li a b { font-weight: normal; float: right; font-family: 'iconfont'; color: #fff; font-size: 0.24rem; }
+.header .wrap .menu .nav ul ol { float: none; width: 100%; height: auto; padding: 0.2rem 0; border-bottom: 1px solid #8c94ac; display: none; }
+.header .wrap .menu .nav ul ol li { list-style: none; float: none; width: 100%; }
+.header .wrap .menu .nav ul ol li a { height: 0.5rem; line-height: 0.5rem; display: block; width: auto; padding: 0 0.46rem; border: none; color: #fff; font-size: 0.22rem; font-family: "Microsoft Yahei"; }
+.header .wrap .menu .nav ul ol li a i { font-family: 'iconfont'; margin: 0 0.16rem 0 0.28rem; font-size: 0.12rem; }
+.header .search { float: right; height: 0.88rem; line-height: 0.88rem; width: 0.38rem; position: relative; }
+.header .search img { vertical-align: middle; width: 0.38rem; }
+.header .search div { position: absolute; right: 0.8rem; top: 0.1rem; height: 0.65rem; width: 4.78rem; z-index: 9999; text-align: left; background: #fff; border-radius: 0.08rem; border-bottom: 0.03rem solid #000a52; display: none; }
+.header .search div input[type='text'] { width: 4rem; height: 0.63rem; outline: none; border: none; vertical-align: top; text-indent: 5px; font-size: 0.26rem; margin-left: 0.1rem; }
+.header .search div input[type='submit'] { background: url("../img/select.png") no-repeat; background-size: 0.38rem; width: 0.38rem; height: 0.38rem; font-size: 0; border: none; outline: none; position: absolute; left: 4.25rem; top: 0.15rem; }
+.header .search div img { position: absolute; right: -0.76rem; top: 0.16rem; width: 0.36rem; }
+.header .logo { height: 0.88rem; line-height: 0.88rem; }
+.header .logo img { width: 4.6rem; vertical-align: middle; }
+.header .bgc { position: absolute; left: 0; top: 0; width: 100%; height: 0.88rem; background: #333; z-index: 999; display: none; }
+
+.footer { width: auto; background: #000a52; padding: 0.2rem 0.16rem; }
+.footer p { color: #fff; font-size: 0.16rem; font-family: "Microsoft Yahei"; line-height: 0.45rem; text-align: center; }
+
+.welcome { width: 100%; height: auto; clear: both; background: #fff; }
+.welcome .slider { width: 100%; height: auto; overflow: hidden; position: relative; }
+.welcome .slider .swiper-slide img { width: 100%; height: auto; }
+.welcome .slider .swiper-pagination { left: inherit; right: 0.16rem; width: auto; }
+.welcome .slider .swiper-pagination .swiper-pagination-bullet { background: #fff; opacity: 1; }
+.welcome .slider .swiper-pagination .swiper-pagination-bullet-active { background: #d50303; }
+.welcome .slider .news-sliderTxt { position: absolute; bottom: 0; left: 0; width: 100%; height: 0.8rem; }
+.welcome .slider .news-sliderTxt b { position: absolute; left: 0; top: 0; width: 100%; height: 100%; display: block; background: black; opacity: 0.5; }
+.welcome .slider .news-sliderTxt p { position: absolute; left: 0.16rem; line-height: 0.8rem; color: #fff; font-size: 0.3rem; font-family: "Microsoft Yahei"; width: 4.5rem; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.welcome .company-news { width: auto; height: 10.8rem; overflow: hidden; padding: 0 0.16rem; }
+.welcome .company-news ol { width: 100%; height: auto; }
+.welcome .company-news ol li { width: 100%; height: 1.78rem; border-bottom: 1px solid #bfbfbf; overflow: hidden; }
+.welcome .company-news ol li .items-img { float: left; width: 2.4rem; height: 1.5rem; overflow: hidden; margin: 0.15rem 0.2rem 0 0; }
+.welcome .company-news ol li .items-img img { width: 100%; }
+.welcome .company-news ol li a { display: block; }
+.welcome .company-news ol li h3 { font-size: 0.3rem; font-family: "Microsoft Yahei"; color: #333333; margin: 0.15rem 0; line-height: 0.4rem; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.welcome .company-news ol li p { color: #3f3f3f; font-size: 0.26rem; font-family: "Microsoft Yahei"; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; overflow: hidden; line-height: 0.5rem; }
+.welcome .company-news ol li:nth-of-type(6) { border: none; }
+.welcome .wel-news { width: 100%; height: 4.28rem; overflow: hidden; }
+.welcome .wel-news .news-nav { width: 100%; height: 0.82rem; border-top: 0.01rem solid #cccccc; border-bottom: 0.01rem solid #cccccc; background: #38abf9; }
+.welcome .wel-news .news-nav div { float: left; width: 2rem; height: 0.79rem; line-height: 0.79rem; text-align: center; }
+.welcome .wel-news .news-nav div h3 { color: #fff; font-size: 0.3rem; font-family: "Microsoft Yahei"; }
+.welcome .wel-news .news-nav div:nth-of-type(1) { background: #fff; border-top: 0.04rem solid #38abf9; border-right: 0.01rem solid #cccccc; }
+.welcome .wel-news .news-nav div:nth-of-type(1) h3 { color: #38abf9; }
+.welcome .wel-news ol { float: none; height: 3.44rem; padding: 0 0.16rem; text-align: left; display: none; }
+.welcome .wel-news ol li { float: none; height: 0.85rem; width: 100%; border-bottom: 1px solid #cccccc; line-height: 0.85rem; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.welcome .wel-news ol li a { color: #535353; font-size: 0.3rem; font-family: "Microsoft Yahei"; text-transform: none; }
+.welcome .wel-news ol li:nth-of-type(4) { border: none; }
+.welcome .wel-news .hotspotNews { display: block; }
+.welcome .engineering { width: 100%; height: 4.72rem; overflow: hidden; }
+.welcome .engineering .news-nav { width: 100%; height: 0.82rem; border-top: 0.01rem solid #cccccc; border-bottom: 0.01rem solid #cccccc; background: #38abf9; }
+.welcome .engineering .news-nav div { float: left; width: 2rem; height: 0.79rem; line-height: 0.79rem; text-align: center; }
+.welcome .engineering .news-nav div h3 { color: #fff; font-size: 0.3rem; font-family: "Microsoft Yahei"; }
+.welcome .engineering .news-nav div:nth-of-type(1) { background: #fff; border-top: 0.04rem solid #38abf9; border-right: 0.01rem solid #cccccc; }
+.welcome .engineering .news-nav div:nth-of-type(1) h3 { color: #38abf9; }
+.welcome .engineering ol { display: none; float: none; width: auto; height: 3.88rem; padding: 0 0.16rem; overflow: hidden; text-align: left; }
+.welcome .engineering ol li { list-style: none; height: 1.5rem; width: 100%; float: none; margin-top: 0.29rem; overflow: hidden; }
+.welcome .engineering ol li .items-img { height: 100%; width: 2.4rem; float: left; overflow: hidden; }
+.welcome .engineering ol li .items-img img { width: 100%; max-height: 1.5rem; }
+.welcome .engineering ol li .items-txt { float: left; height: 100%; width: 4.53rem; padding-left: 0.25rem; }
+.welcome .engineering ol li .items-txt h3 { color: #3f3f3f; font-size: 0.3rem; font-family: "Microsoft Yahei"; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; line-height: 0.4rem; margin-bottom: 0.15rem; }
+.welcome .engineering ol li .items-txt p { color: #666666; font-size: 0.26rem; font-family: "Microsoft Yahei"; line-height: 0.4rem; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; overflow: hidden; }
+.welcome .engineering .high-quality { display: block; }
+.welcome .wel-dynamic { width: 100%; height: 5.09rem; }
+.welcome .wel-dynamic .news-nav { width: 100%; height: 0.82rem; border-top: 0.01rem solid #cccccc; border-bottom: 0.01rem solid #cccccc; background: #38abf9; }
+.welcome .wel-dynamic .news-nav div { float: left; width: 2rem; height: 0.79rem; line-height: 0.79rem; text-align: center; }
+.welcome .wel-dynamic .news-nav div h3 { color: #fff; font-size: 0.3rem; font-family: "Microsoft Yahei"; }
+.welcome .wel-dynamic .news-nav div:nth-of-type(1) { background: #fff; border-top: 0.04rem solid #38abf9; border-right: 0.01rem solid #cccccc; }
+.welcome .wel-dynamic .news-nav div:nth-of-type(1) h3 { color: #38abf9; }
+.welcome .wel-dynamic ol { float: none; width: auto; height: 4.25rem; padding: 0 0.16rem; text-align: left; overflow: hidden; display: block; }
+.welcome .wel-dynamic ol li { list-style: none; float: none; height: 0.84rem; width: 100%; line-height: 0.84rem; border-bottom: 1px solid #cccccc; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.welcome .wel-dynamic ol li a { color: #535353; font-size: 0.3rem; font-family: "Microsoft Yahei"; text-transform: none; }
+.welcome .wel-wrap { width: auto; height: 0.56rem; background: #f2f2f2; line-height: 0.56rem; padding: 0 0.26rem; text-align: right; }
+.welcome .wel-wrap a { color: #bebebe; font-size: 0.26rem; font-family: "Microsoft Yahei"; text-decoration: none; position: relative; }
+.welcome .wel-wrap a input { position: absolute; left: 0; top: 0; width: 0.42rem; height: 0.29rem; opacity: 0; }
+.welcome .wel-wrap span { margin: 0 0.15rem; color: #bebebe; }
+
+.news { width: 100%; height: auto; background: #fff; }
+.news .location { height: 0.92rem; width: auto; background: #fafafa; line-height: 0.92rem; padding: 0 0.34rem; border-bottom: 2px solid #bfbfbf; }
+.news .location span, .news .location a { color: #333333; font-size: 0.26rem; font-family: "Microsoft Yahei"; text-decoration: none; }
+.news .content { width: auto; padding: 0 0.16rem; }
+.news .content .items { width: 100%; height: 3.6rem; border-bottom: 2px dashed #cccccc; overflow: hidden; }
+.news .content .items h3 { color: #333333; font-size: 0.34rem; font-family: "Microsoft Yahei"; line-height: 0.4rem; font-weight: bold; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; margin: 0.45rem 0 0.3rem 0; }
+.news .content .items b { color: #999999; font-size: 0.24rem; font-family: "Microsoft Yahei"; display: block; margin-bottom: 0.3rem; font-weight: normal; }
+.news .content .items p { color: #444444; font-size: 0.28rem; font-family: "Microsoft Yahei"; line-height: 0.5rem; }
+.news .content .items p a { color: #ac0000; font-family: "Microsoft Yahei"; font-size: 0.24rem; text-decoration: none; }
+.news .paging { height: 0.9rem; width: 100%; }
+.news .paging ul { float: none; width: 100%; height: auto; margin: 0 auto; text-align: center; }
+.news .paging ul li { display: inline-block; float: none; list-style: none; line-height: 0.9rem; color: #333333; font-size: 0.24rem; font-family: "Microsoft Yahei"; margin: 0 0.13rem; }
+.news .paging ul li a { text-decoration: none; color: #333333; }
+
+.newsinfo { width: 100%; height: auto; background: #fff; }
+.newsinfo .location { height: 0.92rem; width: auto; background: #fafafa; line-height: 0.92rem; padding: 0 0.34rem; border-bottom: 2px solid #bfbfbf; }
+.newsinfo .location span, .newsinfo .location a { color: #333333; font-size: 0.26rem; font-family: "Microsoft Yahei"; text-decoration: none; }
+.newsinfo .newsinfo-box { width: auto; padding: 0 0.16rem; }
+.newsinfo .newsinfo-box .info-head { width: 100%; height: auto; padding: 0.4rem 0; }
+.newsinfo .newsinfo-box .info-head h3 { color: #333333; font-size: 0.48rem; line-height: 0.8rem; margin-left: 0.1rem; }
+.newsinfo .newsinfo-box .info-head p { color: #999999; font-size: 0.26rem; font-family: "Microsoft Yahei"; }
+.newsinfo .newsinfo-box .info-head p span { display: inline-block; }
+.newsinfo .newsinfo-box .info-head p span:nth-of-type(1) { margin: 0.2rem 0.6rem 0 0.1rem; }
+.newsinfo .newsinfo-box .info-itmes { width: 100%; height: auto; border-top: 1px dashed #cccccc; border-bottom: 1px dashed #cccccc; padding: 0.8rem 0; }
+.newsinfo .newsinfo-box .info-itmes p { color: #333333; font-size: 0.32rem; font-family: "Microsoft Yahei"; text-indent: 0.7rem; line-height: 0.5rem; }
+.newsinfo .newsinfo-box .info-itmes img { width: 100%; }
+.newsinfo .newsinfo-box .info-btm { width: auto; height: 1.1rem; padding: 0.4rem 0 0.4rem 0.1rem; }
+.newsinfo .newsinfo-box .info-btm p { color: #333333; font-size: 0.26rem; font-family: "Microsoft Yahei"; line-height: 0.45rem; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.newsinfo .newsinfo-box .info-btm p a { color: #333333; text-decoration: none; }
+
+.engineering { width: 100%; height: auto; background: #fff; }
+.engineering .location { height: 0.92rem; width: auto; background: #fafafa; line-height: 0.92rem; padding: 0 0.34rem; border-bottom: 2px solid #bfbfbf; }
+.engineering .location span, .engineering .location a { color: #333333; font-size: 0.26rem; font-family: "Microsoft Yahei"; text-decoration: none; }
+.engineering .content { width: auto; padding: 0 0.3rem; }
+.engineering .content h3 { text-align: center; color: #333333; font-size: 0.48rem; font-family: "Microsoft Yahei"; font-weight: bold; margin: 0.5rem 0; }
+.engineering .content .items { width: auto; height: auto; overflow: hidden; text-align: center; border: 1px solid #cccccc; margin-bottom: 0.8rem; }
+.engineering .content .items div { width: 100%; height: auto; max-height: 4.35rem; overflow: hidden; }
+.engineering .content .items div img { width: 100%; max-height: 4.35rem; }
+.engineering .content .items span { line-height: 0.64rem; height: 0.64rem; color: #333333; font-size: 0.36rem; font-family: "Microsoft Yahei"; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; display: block; }
+.engineering .content .items:nth-last-of-type(1) { margin-bottom: 0px; }
+.engineering .paging { height: 1rem; width: 100%; }
+.engineering .paging ul { float: none; width: 100%; height: auto; margin: 0 auto; text-align: center; }
+.engineering .paging ul li { display: inline-block; float: none; list-style: none; line-height: 1rem; color: #333333; font-size: 0.24rem; font-family: "Microsoft Yahei"; margin: 0 0.13rem; }
+.engineering .paging ul li a { text-decoration: none; color: #333333; }
+
+.intro { width: 100%; height: auto; background: #fff; }
+.intro .location { height: 0.92rem; width: auto; background: #fafafa; line-height: 0.92rem; padding: 0 0.34rem; border-bottom: 2px solid #bfbfbf; }
+.intro .location span, .intro .location a { color: #333333; font-size: 0.26rem; font-family: "Microsoft Yahei"; text-decoration: none; }
+.intro .content { width: auto; padding: 0 0.16rem 0.7rem; overflow: hidden; }
+.intro .content h3 { color: #333333; font-size: 0.42rem; font-family: "Microsoft Yahei"; font-weight: bold; text-align: center; margin: 0.5rem 0; }
+.intro .content b { display: block; width: 100%; height: 1px; margin-bottom: 0.7rem; border-top: 2px dashed #cccccc; }
+.intro .content p { color: #333333; font-size: 0.28rem; font-family: "Microsoft Yahei"; line-height: 0.5rem; text-indent: 0.6rem; }
+.intro .content img { width: 100%; }
+
+.qualification { width: 100%; height: auto; background: #fff; }
+.qualification .location { height: 0.92rem; width: auto; background: #fafafa; line-height: 0.92rem; padding: 0 0.34rem; border-bottom: 2px solid #bfbfbf; }
+.qualification .location span, .qualification .location a { color: #333333; font-size: 0.26rem; font-family: "Microsoft Yahei"; text-decoration: none; }
+.qualification .content { width: auto; padding: 0 0.16rem 0.3rem; overflow: hidden; text-align: center; }
+.qualification .content h3 { color: #333333; font-size: 0.42rem; font-family: "Microsoft Yahei"; font-weight: bold; text-align: center; margin: 0.5rem 0; }
+.qualification .content b { display: block; width: 100%; height: 1px; margin-bottom: 0.7rem; border-top: 2px dashed #cccccc; }
+.qualification .content div { width: 100%; height: auto; margin-bottom: 0.4rem; }
+.qualification .content img { max-width: 100%; height: auto; }
+
+.honor { width: 100%; height: auto; background: #fff; }
+.honor .location { height: 0.92rem; width: auto; background: #fafafa; line-height: 0.92rem; padding: 0 0.34rem; border-bottom: 2px solid #bfbfbf; }
+.honor .location span, .honor .location a { color: #333333; font-size: 0.26rem; font-family: "Microsoft Yahei"; text-decoration: none; }
+.honor .content { width: auto; padding: 0 0.16rem; overflow: hidden; }
+.honor .content h3 { color: #333333; font-size: 0.42rem; font-family: "Microsoft Yahei"; font-weight: bold; text-align: center; margin: 0.5rem 0; }
+.honor .content .items { width: 100%; height: auto; margin-bottom: 0.4rem; text-align: center; }
+.honor .content .items img { max-width: 100%; height: auto; margin-bottom: 0.2rem; }
+.honor .content .items p { color: #666666; font-size: 0.24rem; line-height: 0.4rem; }
+.honor .paging { height: 0.9rem; width: auto; padding: 0 0.16rem; }
+.honor .paging ul { float: none; width: 100%; height: auto; margin: 0 auto; text-align: center; border-top: 2px dashed #cccccc; }
+.honor .paging ul li { display: inline-block; float: none; list-style: none; line-height: 0.9rem; color: #333333; font-size: 0.24rem; font-family: "Microsoft Yahei"; margin: 0 0.13rem; }
+.honor .paging ul li a { text-decoration: none; color: #333333; }
+
+.ebook { width: 100%; height: auto; background: #fff; }
+.ebook .location { height: 0.92rem; width: auto; background: #fafafa; line-height: 0.92rem; padding: 0 0.34rem; border-bottom: 2px solid #bfbfbf; }
+.ebook .location span, .ebook .location a { color: #333333; font-size: 0.26rem; font-family: "Microsoft Yahei"; text-decoration: none; }
+.ebook .content { width: auto; padding: 0 0.16rem 0.7rem; }
+.ebook .content h3 { color: #333333; font-size: 0.42rem; font-family: "Microsoft Yahei"; font-weight: bold; text-align: center; margin: 0.5rem 0; }
+.ebook .content .items { height: 1rem; width: 100%; line-height: 1rem; text-align: center; }
+.ebook .content .items img { margin-right: 0.1rem; }
+.ebook .content .items a { font-size: 0.25rem; color: #333333; text-decoration: none; }
+
+.organ { width: 100%; height: auto; background: #fff; }
+.organ .location { height: 0.92rem; width: auto; background: #fafafa; line-height: 0.92rem; padding: 0 0.34rem; border-bottom: 2px solid #bfbfbf; }
+.organ .location span, .organ .location a { color: #333333; font-size: 0.26rem; font-family: "Microsoft Yahei"; text-decoration: none; }
+.organ .content { width: auto; padding: 0 0.16rem 0.7rem; }
+.organ .content h3 { color: #333333; font-size: 0.42rem; font-family: "Microsoft Yahei"; font-weight: bold; text-align: center; margin: 0.5rem 0; }
+.organ .content b { display: block; width: 100%; height: 1px; margin-bottom: 0.7rem; border-top: 2px dashed #cccccc; }
+
+/*# sourceMappingURL=style.css.map */
